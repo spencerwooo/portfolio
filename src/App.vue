@@ -7,7 +7,7 @@
 
       <span>
         * also the creator of
-        <a href="https://spencerwoo.com/dowww/">'Dev on Windows with WSL'</a>
+        <a href="https://dowww.spencerwoo.com/">'Dev on Windows with WSL'</a>
       </span>
 
       <hr id="top-hr" />
