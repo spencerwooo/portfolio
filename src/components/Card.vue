@@ -29,7 +29,11 @@ export default {
 </script>
 
 <style scoped>
-.card {
+a {
+  text-decoration: none;
+}
+
+div.card {
   border-radius: 10px;
   max-width: 320px;
   height: 120px;
@@ -39,26 +43,21 @@ export default {
   align-items: center;
   transition: 0.5s;
 }
-
-.card:hover {
+div.card:hover {
   -webkit-box-shadow: 0px 8px 36px -5px rgba(20, 19, 19, 0.5);
   -moz-box-shadow: 0px 8px 36px -5px rgba(20, 19, 19, 0.5);
   box-shadow: 0px 8px 36px -5px rgba(20, 19, 19, 0.5);
 }
 
-#icon {
-  width: 30px;
-  height: 30px;
-  margin-left: auto;
-  margin-right: 0px;
-}
-
-#title {
+div#title {
   font-weight: 700;
   font-size: 20px;
 }
 
-a {
-  text-decoration: none;
+img#icon {
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: 0px;
 }
 </style>

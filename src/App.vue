@@ -1,38 +1,28 @@
 <template>
   <div id="app" class=".slide-in-bottom">
     <div id="container">
-      <img id="avatar" alt="avatar" src="./assets/logo.jpg" />
-      <h1>Spencer Woo</h1>
-      <h2>👨‍🎨 Designer who codes. Writer at sspai.com. Student in China.</h2>
+      <img id="avatar" alt="avatar" src="./assets/logo.png" />
 
+      <h1>Jay Yan</h1>
+      <h2>
+        Web developer.
+        <br />Porsche fan. 🚗
+        <br />Batman fan. 🦇
+      </h2>
       <span>
         * also the creator of
-        <a href="https://dowww.spencerwoo.com/">'Dev on Windows with WSL'</a>
+        <a
+          href="https://chrome.google.com/webstore/detail/即刻喵-2/olbcannpdmfilamkfbmefmaagafhnlhb?hl=zh-CN"
+        >'即刻喵'</a>
       </span>
 
-      <hr id="top-hr" />
-      <h3>Featured Projects</h3>
       <div id="card-container">
         <Card
-          msg="GitHub Projects"
+          msg="GitHub"
           backgroundColor="#24292E"
           textColor="#FFFFFF"
           icon="github.png"
-          link="https://github.com/spencerwooo"
-        />
-        <Card
-          msg="Articles on sspai"
-          backgroundColor="#C03237"
-          textColor="#FFFFFF"
-          icon="sspai.png"
-          link="https://beta.sspai.com/u/ardazhlq/posts"
-        />
-        <Card
-          msg="Medium tech blogs"
-          backgroundColor="#1AA77D"
-          textColor="#FFFFFF"
-          icon="medium.png"
-          link="https://medium.com/spencerweekly"
+          link="https://github.com/coder-ysj"
         />
       </div>
 
@@ -43,55 +33,42 @@
           <div class="social-media-card">
             <img class="media-icon" src="@/assets/jike.png" alt />
             <span>
-              Jike:
+              即刻:
               <a
                 href="https://web.okjike.com/user/4DDA0425-FB41-4188-89E4-952CA15E3C5E/post"
-              >@SpencerWoo</a>
+              >@盐酥鸡</a>
             </span>
           </div>
-          <div class="social-media-card">
-            <img class="media-icon" src="@/assets/weibo.png" alt />
-            <span>
-              Weibo:
-              <a href="https://weibo.com/u/6265807914">@SPNCR</a>
-            </span>
-          </div>
+
           <div class="social-media-card">
             <img class="media-icon" src="@/assets/twitter.png" alt />
             <span>
               Twitter:
-              <a href="https://twitter.com/realSpencerWoo">@realSpencerWoo</a>
+              <a href="https://twitter.com/coder_ysj">@coder_ysj</a>
             </span>
           </div>
         </div>
 
         <hr />
-        <p>
-          Previous blog posts have been archived at:
-          <a
-            href="https://archive.spencerwoo.com"
-          >https://archive.spencerwoo.com</a>. Thank you for following me.
-        </p>
+        <p>Thank you for following me.</p>
       </div>
     </div>
 
     <div id="footer">
-      <div id="footer-text">©{{ getYear() }} Spencer Woo</div>
+      <div id="footer-text">©{{ currentYear }} Jay Yan</div>
     </div>
   </div>
 </template>
 
 <script>
-import Card from './components/Card.vue'
+import Card from '@/components/Card'
 
 export default {
   name: 'app',
-  components: {
-    Card
-  },
-  methods: {
-    getYear() {
-      return new Date().getFullYear()
+  components: { Card },
+  data() {
+    return {
+      currentYear: new Date().getFullYear()
     }
   }
 }
@@ -100,29 +77,6 @@ export default {
 <style>
 body {
   margin: 0;
-}
-
-#app {
-  font-family: 'Fira Mono', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #141313;
-  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    both;
-  animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
-#container {
-  text-align: center;
-  margin: 40px auto 0 auto;
-  max-width: 600px;
-  padding: 60px 20px;
-}
-
-#avatar {
-  width: 120px;
-  height: 120px;
-  border-radius: 60px;
 }
 
 h1 {
@@ -146,24 +100,6 @@ span {
   color: #666666;
 }
 
-#top-hr {
-  width: 100px;
-  margin: 60px auto;
-  border-top: solid 3px #c03237;
-}
-
-.social-media-card {
-  display: flex;
-  align-items: center;
-  margin: 20px 0;
-}
-
-.social-media-card .media-icon {
-  width: 30px;
-  height: 30px;
-  padding-right: 20px;
-}
-
 a {
   text-decoration: none;
   color: #c03237;
@@ -173,17 +109,52 @@ a:hover {
   border-bottom: #c03237 solid 1px;
 }
 
-#others {
+div#app {
+  font-family: 'Fira Mono', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #141313;
+  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+div#container {
+  text-align: center;
+  margin: 40px auto 0 auto;
+  max-width: 600px;
+  padding: 60px 20px;
+}
+
+img#avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+}
+
+div.social-media-card {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+div.social-media-card img.media-icon {
+  width: 30px;
+  height: 30px;
+  padding-right: 20px;
+}
+
+div#others {
   text-align: left;
 }
 
-#footer {
+div#footer {
   padding: 20px 20px;
   background-color: #141313;
   color: #ffffff;
 }
 
-#footer-text {
+div#footer-text {
   margin: 0px auto;
   max-width: 600px;
 }
@@ -198,18 +169,6 @@ a:hover {
  * animation slide-in-bottom
  * ----------------------------------------
  */
-@-webkit-keyframes slide-in-bottom {
-  0% {
-    -webkit-transform: translateY(1000px);
-    transform: translateY(1000px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
 @keyframes slide-in-bottom {
   0% {
     -webkit-transform: translateY(1000px);
