@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+  box-sizing: border-box;
+}
+
+img {
+  border: 0;
+  display: block;
+}
+
+div,
+p,
+span,
+a {
+  overflow-wrap: break-word;
+  text-decoration: none;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+body {
+  font-family: "Fira Mono", monospace, sans-serif;
+  margin: auto;
+  color: #000;
+  background: #fff;
+  min-width: 320px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
