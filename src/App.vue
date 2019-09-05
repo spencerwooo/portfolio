@@ -25,7 +25,7 @@
           backgroundColor="#C03237"
           textColor="#FFFFFF"
           icon="sspai.png"
-          link="https://beta.sspai.com/u/ardazhlq/posts"
+          link="https://beta.sspai.com/u/spencerwoo/posts"
         />
         <Card
           msg="Medium tech blogs"
