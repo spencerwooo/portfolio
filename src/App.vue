@@ -16,7 +16,7 @@
         <Card
           msg="GitHub"
           backgroundColor="#24292E"
-          description="📦我做过的项目都在这里"
+          description="📦 我做过的项目都在这里"
           textColor="#FFFFFF"
           icon="github.png"
           link="https://github.com/spencerwooo"
@@ -24,7 +24,7 @@
         <Card
           msg="少数派 sspai"
           backgroundColor="#C03237"
-          description="✏️主要输出战场！"
+          description="✏️ 主要输出战场！"
           textColor="#FFFFFF"
           icon="sspai.png"
           link="https://beta.sspai.com/u/spencerwoo/posts"
@@ -32,7 +32,7 @@
         <Card
           msg="Listed"
           backgroundColor="#168FEC"
-          description="📒从头开始的博客（咕咕咕）"
+          description="📒 从头开始的博客（咕咕咕）"
           textColor="#FFFFFF"
           icon="s.notes.png"
           link="https://listed.to/@spwoo"
@@ -51,7 +51,7 @@
                 href="https://web.okjike.com/user/4DDA0425-FB41-4188-89E4-952CA15E3C5E/post"
               >@SpencerWoo</a>
             </span>
-          </div> -->
+          </div>-->
           <div class="social-media-card">
             <img class="media-icon" src="@/assets/weibo.png" alt />
             <span>
@@ -75,7 +75,7 @@
           <a
             href="https://archive.spencerwoo.com"
           >https://archive.spencerwoo.com</a>. Thank you for following me.
-        </p> -->
+        </p>-->
       </div>
     </div>
 
@@ -110,7 +110,9 @@ body {
 }
 
 #app {
-  font-family: "Nunito Sans", "Avenir Next", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif, Apple Color Emoji, Segoe UI Emoji;;
+  font-family: 'Nunito Sans', 'Avenir Next', -apple-system, BlinkMacSystemFont,
+    Segoe UI, Helvetica, Arial, 'PingFang SC', 'Noto Sans CJK SC',
+    'Microsoft YaHei', sans-serif, Apple Color Emoji, Segoe UI Emoji;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #141313;
