@@ -1,7 +1,10 @@
 <template>
   <a :href="link">
     <div class="card" :style="cardStyles">
-      <div id="title">{{ msg }}</div>
+      <div id="title">
+        <div id="msg">{{ msg }}</div>
+        <div id="description">{{ description }}</div>
+      </div>
       <img id="icon" :src="require('@/assets/' + this.icon)" />
     </div>
   </a>
@@ -13,6 +16,7 @@ export default {
   props: {
     msg: String,
     backgroundColor: String,
+    description: String,
     textColor: String,
     icon: String,
     link: String
@@ -20,8 +24,9 @@ export default {
   computed: {
     cardStyles() {
       return {
-        'background-color': this.backgroundColor,
-        color: this.textColor
+        '--background-color': this.backgroundColor,
+        '--color': this.textColor,
+        '--color-hover': this.backgroundColor
       }
     }
   }
@@ -37,13 +42,18 @@ export default {
   padding: 0 30px;
   display: flex;
   align-items: center;
-  transition: 0.5s;
+  transition: 0.3s;
+  color: var(--color);
+  background-color: var(--background-color);
+  -webkit-box-shadow: 0px 5px 20px -10px var(--color-hover);
+  -moz-box-shadow: 0px 5px 20px -10px var(--color-hover);
+  box-shadow: 0px 5px 20px -10px var(--color-hover);
 }
 
 .card:hover {
-  -webkit-box-shadow: 0px 8px 36px -5px rgba(20, 19, 19, 0.5);
-  -moz-box-shadow: 0px 8px 36px -5px rgba(20, 19, 19, 0.5);
-  box-shadow: 0px 8px 36px -5px rgba(20, 19, 19, 0.5);
+  -webkit-box-shadow: 0px 10px 40px -10px var(--color-hover);
+  -moz-box-shadow: 0px 10px 40px -10px var(--color-hover);
+  box-shadow: 0px 10px 40px -10px var(--color-hover);
 }
 
 #icon {
@@ -56,6 +66,13 @@ export default {
 #title {
   font-weight: 700;
   font-size: 20px;
+  text-align: left;
+}
+
+#title #description {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 a {
