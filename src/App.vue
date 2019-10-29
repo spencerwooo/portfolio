@@ -1,29 +1,35 @@
 <template>
   <div id="app" class=".slide-in-bottom">
+    <vue-particles
+      class="particles"
+      color="#ca2c2a"
+      :particleOpacity="0.3"
+      :particlesNumber="10"
+      shapeType="circle"
+      :particleSize="4"
+      :lineLinked="false"
+      :moveSpeed="3"
+      :hoverEffect="false"
+      :clickEffect="false"
+    ></vue-particles>
+
     <div id="container">
-      <img id="avatar" alt="avatar" src="./assets/logo.jpg" />
+      <img id="avatar" alt="avatar" src="./assets/icon.jpg" />
       <h1>Spencer Woo</h1>
       <h2>👨‍🎨 👨‍💻 🙋‍♂️ .DS_Store</h2>
 
-      <span>
-        * he is the creator of
-        <a href="https://dowww.spencerwoo.com/">'Dev on Windows with WSL'</a>!
-      </span>
+      <p>CS 在读 / 少数派资深作者 / Arch Linux 精神支持者</p>
+      <p>
+        * he is also the creator of
+        <a href="https://dowww.spencerwoo.com/">'Dev on Windows with WSL'</a>
+      </p>
 
       <hr id="top-hr" />
-      <h3>🎉 Where to find me!</h3>
+      <h3>🎉 Where to find me:</h3>
       <div id="card-container">
         <Card
-          msg="GitHub"
-          backgroundColor="#24292E"
-          description="📦 我做过的项目都在这里"
-          textColor="#FFFFFF"
-          icon="github.png"
-          link="https://github.com/spencerwooo"
-        />
-        <Card
           msg="少数派 sspai"
-          backgroundColor="#C03237"
+          backgroundColor="#ca2c2a"
           description="✏️ 主要输出战场！"
           textColor="#FFFFFF"
           icon="sspai.png"
@@ -36,6 +42,14 @@
           textColor="#FFFFFF"
           icon="s.notes.png"
           link="https://listed.to/@spwoo"
+        />
+        <Card
+          msg="GitHub"
+          backgroundColor="#24292E"
+          description="📦 我做过的项目都在这里"
+          textColor="#FFFFFF"
+          icon="github.png"
+          link="https://github.com/spencerwooo"
         />
       </div>
 
@@ -69,7 +83,7 @@
         </div>
 
         <hr />
-        <p>🧨感谢大哥的关注！给您拜年了！</p>
+        <p>🧨 感谢大哥的关注！给您拜年了！干杯 🍻</p>
         <!-- <p>
           Previous blog posts have been archived at:
           <a
@@ -104,9 +118,18 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap');
 
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -9999;
+}
+
 body {
   margin: 0;
-  border-top: #141313 5px solid;
+  border-top: #ca2c2a 5px solid;
 }
 
 #app {
@@ -115,7 +138,7 @@ body {
     'Microsoft YaHei', sans-serif, Apple Color Emoji, Segoe UI Emoji;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #141313;
+  color: #24292e;
   -webkit-animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
     both;
   animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -125,7 +148,7 @@ body {
   text-align: center;
   margin: 40px auto 0 auto;
   max-width: 600px;
-  padding: 60px 20px;
+  padding: 60px 20px 44px 20px;
 }
 
 #avatar {
@@ -148,9 +171,10 @@ h2 {
 hr {
   width: 100px;
   margin: 60px 0;
-  border-top: solid 3px #141313;
+  border-top: solid 3px #24292e;
 }
 
+p,
 span {
   color: #666666;
 }
@@ -158,7 +182,7 @@ span {
 #top-hr {
   width: 100px;
   margin: 60px auto;
-  border-top: solid 3px #c03237;
+  border-top: solid 3px #ca2c2a;
 }
 
 .social-media-card {
@@ -175,11 +199,11 @@ span {
 
 a {
   text-decoration: none;
-  color: #c03237;
+  color: #ca2c2a;
 }
 
 a:hover {
-  border-bottom: #c03237 solid 1px;
+  border-bottom: #ca2c2a solid 1px;
 }
 
 #others {
@@ -188,7 +212,7 @@ a:hover {
 
 #footer {
   padding: 20px 20px;
-  background-color: #141313;
+  background-color: #24292e;
   color: #ffffff;
 }
 
