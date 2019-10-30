@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class=".slide-in-bottom">
+  <div id="app">
     <vue-particles
       class="particles"
       color="#ca2c2a"
@@ -13,12 +13,14 @@
       :clickEffect="false"
     ></vue-particles>
 
+    <vue-navigation-bar :options="navbarOptions" />
+
     <div id="container">
       <img id="avatar" alt="avatar" src="./assets/icon.jpg" />
       <h1>Spencer Woo</h1>
       <h2>👨‍🎨 👨‍💻 🙋‍♂️ .DS_Store</h2>
 
-      <p>CS 在读 / 少数派资深作者 / Arch Linux 精神支持者</p>
+      <p>CS 在读 / 少数派资深作者 / Arch Linux 精神用户</p>
       <p>
         * he is also the creator of
         <a href="https://dowww.spencerwoo.com/">'Dev on Windows with WSL'</a>
@@ -67,14 +69,14 @@
             </span>
           </div>-->
           <div class="social-media-card">
-            <img class="media-icon" src="@/assets/weibo.png" alt />
+            <img class="media-icon" src="@/assets/weibo.png" alt="weibo" />
             <span>
               Weibo:
               <a href="https://weibo.com/u/6265807914">@SPNCR</a>
             </span>
           </div>
           <div class="social-media-card">
-            <img class="media-icon" src="@/assets/twitter.png" alt />
+            <img class="media-icon" src="@/assets/twitter.png" alt="twitter" />
             <span>
               Twitter:
               <a href="https://twitter.com/realSpencerWoo">@realSpencerWoo</a>
@@ -100,12 +102,38 @@
 </template>
 
 <script>
+import 'vue-navigation-bar/dist/vue-navigation-bar.css'
 import Card from './components/Card.vue'
 
 export default {
   name: 'app',
   components: {
     Card
+  },
+  data() {
+    return {
+      navbarOptions: {
+        elementId: 'main-navbar',
+        mobileBreakpoint: 992,
+        brandImagePath: './',
+        brandImage: require('./assets/brand.png'),
+        brandImageAltText: 'Big brother drink Coca Cola!',
+        showBrandImageInMobilePopup: true,
+        ariaLabelMainNav: 'Main Navigation',
+        tooltipAnimationType: 'shift-away',
+        menuOptionsLeft: [
+          { type: 'link', text: 'Spencer Woo', path: './' }
+        ],
+        menuOptionsRight: [
+          {
+            type: 'button',
+            text: 'GitHub',
+            path: 'https://github.com/spencerwooo/portfolio',
+            class: 'button-github'
+          }
+        ]
+      }
+    }
   },
   methods: {
     getYear() {
@@ -127,7 +155,8 @@ export default {
   z-index: -9999;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -150,15 +179,32 @@ body {
 
 #container {
   text-align: center;
-  margin: 40px auto 0 auto;
-  max-width: 600px;
-  padding: 60px 20px 44px 20px;
+  margin: 0px auto 0 auto;
+  max-width: 800px;
+  padding: 0px 20px 44px 20px;
+}
+
+#main-navbar {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#main-navbar .button-github {
+  background: #ca2c2a;
+  transition: 0.3s;
+}
+
+#main-navbar .button-github:hover {
+  -webkit-box-shadow: 0px 10px 40px -10px #ca2c2a;
+  -moz-box-shadow: 0px 10px 40px -10px #ca2c2a;
+  box-shadow: 0px 10px 40px -10px #ca2c2a;
 }
 
 #avatar {
   width: 120px;
   height: 120px;
   border-radius: 60px;
+  margin-top: 40px;
 }
 
 h1 {
@@ -174,8 +220,8 @@ h2 {
 
 hr {
   width: 100px;
-  margin: 60px 0;
-  border-top: solid 3px #24292e;
+  margin: 60px 0 0 0;
+  border-top: solid 5px #24292e;
 }
 
 p,
@@ -186,7 +232,7 @@ span {
 #top-hr {
   width: 100px;
   margin: 60px auto;
-  border-top: solid 3px #ca2c2a;
+  border-top: solid 5px #ca2c2a;
 }
 
 .social-media-card {
@@ -196,17 +242,17 @@ span {
 }
 
 .social-media-card .media-icon {
-  width: 30px;
-  height: 30px;
-  padding-right: 20px;
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
 }
 
-a {
+#container a {
   text-decoration: none;
   color: #ca2c2a;
 }
 
-a:hover {
+#container a:hover {
   border-bottom: #ca2c2a solid 1px;
 }
 
@@ -222,7 +268,7 @@ a:hover {
 
 #footer-text {
   margin: 0px auto;
-  max-width: 600px;
+  max-width: 800px;
 }
 
 /**
