@@ -27,13 +27,13 @@
         </div>-->
         <div class="custom-router-link">
           <div class="link">
-            <router-link to="/">1.HOME</router-link>
+            <router-link to="/">HOME</router-link>
           </div>
           <div class="link">
-            <router-link to="/about">2.ABOUT</router-link>
+            <router-link to="/about">ABOUT</router-link>
           </div>
           <div class="link">
-            <router-link to="/subscribe">3.SUBSCRIBE</router-link>
+            <router-link to="/subscribe">SUBSCRIBE</router-link>
           </div>
         </div>
       </template>
@@ -58,7 +58,6 @@ export default {
       navbarOptions: {
         elementId: 'main-navbar',
         mobileBreakpoint: 992,
-        showBrandImageInMobilePopup: true,
         ariaLabelMainNav: 'Main Navigation',
         menuOptionsRight: [
           {
