@@ -200,6 +200,12 @@ body {
   box-shadow: 0px 10px 40px -10px #ca2c2a;
 }
 
+.vnb__collapse-button img {
+  width: 24px;
+  height: 24px;
+  padding-bottom: 3px;
+}
+
 #avatar {
   width: 120px;
   height: 120px;
