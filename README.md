@@ -4,9 +4,10 @@
 
 ## Whereabouts
 
-1. Original blog: <https://archive.spencerwoo.com>
-2. Articles at sspai: <https://beta.sspai.com/u/ardazhlq/posts>
-3. Medium publication: <https://medium.com/spencerweekly>
+1. Original blog archive: <https://archive.spencerwoo.com>
+2. New 'start-from-scratch' blog: <https://listed.to/@spwoo>
+3. Articles at sspai: <https://beta.sspai.com/u/ardazhlq/posts>
+4. Medium publication: <https://medium.com/spencerweekly>
 
 ## Project setup
 ```
