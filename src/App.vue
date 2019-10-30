@@ -4,7 +4,7 @@
       class="particles"
       color="#ca2c2a"
       :particleOpacity="0.3"
-      :particlesNumber="10"
+      :particlesNumber="20"
       shapeType="circle"
       :particleSize="4"
       :lineLinked="false"
@@ -123,12 +123,16 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 90%;
   z-index: -9999;
 }
 
-body {
+html, body {
   margin: 0;
+  padding: 0;
+}
+
+body {
   border-top: #ca2c2a 5px solid;
 }
 
