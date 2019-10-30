@@ -10,10 +10,34 @@
       :lineLinked="false"
       :moveSpeed="3"
       :hoverEffect="false"
-      :clickEffect="false"
+      :clickEffect="true"
     />
 
-    <vue-navigation-bar :options="navbarOptions" />
+    <vue-navigation-bar :options="navbarOptions">
+      <template v-slot:custom-section>
+        <!-- <div class="brand-image">
+          <router-link to="/">
+            <img
+              src="./assets/brand.png"
+              alt="Big brother drink Coca Cola!"
+              width="30px"
+              height="30px"
+            />
+          </router-link>
+        </div>-->
+        <div class="custom-router-link">
+          <div class="link">
+            <router-link to="/">1.HOME</router-link>
+          </div>
+          <div class="link">
+            <router-link to="/about">2.ABOUT</router-link>
+          </div>
+          <div class="link">
+            <router-link to="/subscribe">3.SUBSCRIBE</router-link>
+          </div>
+        </div>
+      </template>
+    </vue-navigation-bar>
 
     <router-view />
 
@@ -34,26 +58,12 @@ export default {
       navbarOptions: {
         elementId: 'main-navbar',
         mobileBreakpoint: 992,
-        brandImagePath: './',
-        brandImage: require('./assets/brand.png'),
-        brandImageAltText: 'Big brother drink Coca Cola!',
         showBrandImageInMobilePopup: true,
         ariaLabelMainNav: 'Main Navigation',
-        tooltipAnimationType: 'shift-away',
         menuOptionsRight: [
           {
-            type: 'link',
-            text: 'ABOUT',
-            path: '/about'
-          },
-          {
-            type: 'link',
-            text: 'SUBSCRIBE',
-            path: '/subscribe'
-          },
-          {
             type: 'button',
-            text: 'Fork me on GitHub',
+            text: '🌟 ME ON GITHUB',
             path: 'https://github.com/spencerwooo/portfolio',
             class: 'button-github'
           }
@@ -116,11 +126,16 @@ body {
 }
 
 #main-navbar .button-github {
-  background: #ca2c2a;
+  background: white;
+  color: #24292e;
+  border: 1px solid #ca2c2a;
+  /* border-radius: 50px; */
   transition: 0.3s;
 }
 
 #main-navbar .button-github:hover {
+  background: #ca2c2a;
+  color: #ffffff;
   -webkit-box-shadow: 0px 10px 40px -10px #ca2c2a;
   -moz-box-shadow: 0px 10px 40px -10px #ca2c2a;
   box-shadow: 0px 10px 40px -10px #ca2c2a;
@@ -130,6 +145,44 @@ body {
   width: 24px;
   height: 24px;
   padding-bottom: 3px;
+}
+
+.vnb__menu-options--right {
+  margin-left: 0;
+  padding-left: 10px;
+}
+
+.custom-router-link {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.custom-router-link .link {
+  padding: 0px 10px 0 10px;
+  cursor: pointer;
+  -webkit-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+
+.custom-router-link .link a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #595959;
+  font-size: 1rem;
 }
 
 #avatar {
