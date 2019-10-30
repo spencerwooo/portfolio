@@ -7905,6 +7905,11 @@ vue-particles@^1.0.9:
     particles.js "^2.0.0"
     vue "^2.2.6"
 
+vue-router@^3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.1.3.tgz#e6b14fabc0c0ee9fda0e2cbbda74b350e28e412b"
+  integrity sha512-8iSa4mGNXBjyuSZFCCO4fiKfvzqk+mhL0lnKuGcQtO1eoj8nq3CmbEG8FwK5QqoqwDgsjsf1GDuisDX4cdb/aQ==
+
 vue-screen-size@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/vue-screen-size/-/vue-screen-size-1.0.0.tgz#ed547318bed628c1a1f3b106ae67d11006499aff"
