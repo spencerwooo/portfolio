@@ -39,7 +39,9 @@
       </template>
     </vue-navigation-bar>
 
-    <router-view />
+    <transition enter-active-class="animation-fade-in">
+      <router-view />
+    </transition>
 
     <div id="footer">
       <div id="footer-text">©{{ getYear() }} Spencer Woo</div>
@@ -98,6 +100,12 @@ body {
 
 body {
   border-top: #ca2c2a 5px solid;
+}
+
+.animation-fade-in {
+  -webkit-animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 #app {
