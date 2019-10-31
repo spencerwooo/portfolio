@@ -44,7 +44,12 @@
     </transition>
 
     <div id="footer">
-      <div id="footer-text">©{{ getYear() }} Spencer Woo</div>
+      <div id="footer-text">
+        <p>Built with ♥ and <a href="https://vuejs.org/">Vue.js</a> | CSS animations by <a href="http://animista.net/">Animista</a> | Proudly deployed on <a href="https://netlify.com/">Netlify</a></p>
+        <p>Designed, coded, and deployed from scratch by Spencer Woo. Open source on <a href="https://github.com/spencerwooo/portfolio">GitHub</a>.</p>
+        <p id="busuanzi_container_site_pv">Viewed by you guys for a total of <span id="busuanzi_value_site_pv"></span> times ♥</p>
+        <p id="footer-copyright">©{{ getYear() }} Spencer Woo</p>
+      </div>
     </div>
   </div>
 </template>
@@ -124,7 +129,7 @@ body {
   text-align: center;
   margin: 0px auto 0 auto;
   max-width: 800px;
-  padding: 0px 20px 44px 20px;
+  padding: 0px 20px 40px 20px;
 }
 
 #main-navbar {
@@ -193,10 +198,20 @@ body {
 }
 
 #avatar {
-  width: 120px;
-  height: 120px;
+  max-width: 120px;
+  max-height: 120px;
   border-radius: 60px;
   margin-top: 40px;
+}
+
+.header-image {
+  max-width: 120px;
+  max-height: 120px;
+  margin-top: 40px;
+}
+
+.article {
+  text-align: left;
 }
 
 h1 {
@@ -255,12 +270,18 @@ span {
 #footer {
   padding: 20px 20px;
   background-color: #24292e;
-  color: #ffffff;
 }
 
 #footer-text {
   margin: 0px auto;
   max-width: 800px;
+  color: #ffffff;
+}
+
+#footer-text a,
+#busuanzi_value_site_pv,
+#footer-copyright {
+  color: #ffffff;
 }
 
 /**
