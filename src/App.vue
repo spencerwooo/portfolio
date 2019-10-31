@@ -15,17 +15,6 @@
 
     <vue-navigation-bar :options="navbarOptions">
       <template v-slot:custom-section>
-        <!-- <div class="brand-image">
-          <router-link to="/">
-            <img
-              src="./assets/brand.png"
-              alt="Big brother drink Coca Cola!"
-              width="30px"
-              height="30px"
-            />
-          </router-link>
-        </div>-->
-        <div class="custom-router-link">
           <div class="link">
             <router-link to="/">HOME</router-link>
           </div>
@@ -35,7 +24,6 @@
           <div class="link">
             <router-link to="/subscribe">SUBSCRIBE</router-link>
           </div>
-        </div>
       </template>
     </vue-navigation-bar>
 
@@ -164,37 +152,26 @@ body {
   padding-left: 10px;
 }
 
-.custom-router-link {
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+.vnb__popup__top__close-button {
+  padding-top: 10px;
 }
 
-.custom-router-link .link {
+.link {
   padding: 0px 10px 0 10px;
   cursor: pointer;
   -webkit-transition: color 0.2s ease-in;
   transition: color 0.2s ease-in;
 }
 
-.custom-router-link .link a {
+.link a {
   text-decoration: none;
   font-weight: 500;
   color: #595959;
   font-size: 1rem;
+}
+
+.vnb__popup__bottom__custom-section .link {
+  padding-bottom: 10px;
 }
 
 #avatar {
