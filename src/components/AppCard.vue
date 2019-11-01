@@ -8,22 +8,24 @@
       </div>
       <div id="description">{{ description }}</div>
     </div>
-    <a :href="link1">
-      <img
-        v-tooltip="link1Tooltip"
-        class="app-icon"
-        :src="require('@/assets/' + this.rightIcon1)"
-        alt="Right icon 1"
-      />
-    </a>
-    <a :href="link2">
-      <img
-        v-tooltip="link2Tooltip"
-        class="app-icon"
-        :src="require('@/assets/' + this.rightIcon2)"
-        alt="Right icon 2"
-      />
-    </a>
+    <div id="links">
+      <a :href="link1">
+        <img
+          v-tooltip="link1Tooltip"
+          class="app-icon"
+          :src="require('@/assets/' + this.rightIcon1)"
+          alt="Right icon 1"
+        />
+      </a>
+      <a :href="link2">
+        <img
+          v-tooltip="link2Tooltip"
+          class="app-icon"
+          :src="require('@/assets/' + this.rightIcon2)"
+          alt="Right icon 2"
+        />
+      </a>
+    </div>
   </div>
 </template>
 
@@ -65,7 +67,8 @@ export default {
 .app-card {
   border-radius: 10px;
   height: 110px;
-  margin: 40px 60px;
+  margin: 40px auto;
+  max-width: 420px;
   padding: 0 30px;
   display: flex;
   flex-direction: row;
@@ -103,15 +106,23 @@ export default {
 .app-icon {
   width: 30px;
   height: 30px;
-  /* border-radius: 5px; */
   margin-left: 20px;
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
 }
 
 #title {
   font-weight: 700;
   font-size: 20px;
   text-align: left;
-  width: 70%;
+  width: 60%;
 }
 
 #title #description {
@@ -136,6 +147,55 @@ export default {
   justify-content: flex-start;
   align-items: center;
   align-content: stretch;
+}
+
+@media screen and (max-width: 960px) {
+  .app-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    height: 100%;
+    margin: 25px auto;
+    padding: 0 15px;
+    -webkit-box-shadow: 0px 10px 40px -10px var(--color-hover);
+    -moz-box-shadow: 0px 10px 40px -10px var(--color-hover);
+    box-shadow: 0px 10px 40px -10px var(--color-hover);
+  }
+
+  #icon {
+    margin: 15px auto 15px 0;
+  }
+
+  .app-icon {
+    margin-left: 15px;
+  }
+
+  #links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: stretch;
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  #title {
+    width: 100%;
+  }
+
+  #upper-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+  }
 }
 
 .tooltip {
