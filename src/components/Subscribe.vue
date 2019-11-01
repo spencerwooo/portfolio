@@ -7,13 +7,40 @@
     <hr id="top-hr" />
     <div class="article">
       <h3>🚧 Under construction</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris placerat nunc in risus eleifend mollis. Praesent non enim venenatis, fringilla nisi et, ullamcorper arcu. Suspendisse suscipit placerat ante id finibus. Sed lobortis sagittis rutrum. Vestibulum pretium dui vitae interdum posuere. Etiam et metus rhoncus, consectetur lacus quis, placerat ante. Nam imperdiet dignissim tristique. Donec tincidunt ullamcorper aliquet. Nunc vitae urna ut enim euismod malesuada.</p>
-      <p>In hac habitasse platea dictumst. Integer mattis ac massa vel porta. Etiam ornare, ex eu accumsan pretium, massa libero suscipit ipsum, sed accumsan magna sem vitae est. Donec bibendum, erat vitae volutpat posuere, neque metus congue diam, quis sollicitudin massa risus ut quam. Ut lacinia leo massa, at laoreet nibh porttitor facilisis. Nunc sed erat sed dui iaculis ornare ut et urna. Nunc ut laoreet mauris. Proin tempor tincidunt gravida. Mauris odio lorem, accumsan a tortor ac, pulvinar dictum eros. Fusce fringilla ligula ac elit efficitur, vitae porttitor sapien ultrices. Nunc tincidunt, metus eu tincidunt lobortis, sapien ex malesuada risus, id pellentesque dolor lacus vel risus. Nulla mattis at risus feugiat ultrices. Aliquam diam leo, pulvinar eget posuere nec, vulputate id dolor. Nam porttitor vestibulum augue eget dictum. Duis suscipit dui eget arcu suscipit auctor.</p>
-      <p>Pellentesque luctus dictum tellus id tincidunt. Nam pharetra erat lacus, ac viverra leo mattis non. Morbi pharetra ut metus eget consectetur. Quisque non dictum nibh, at sagittis nisl. Maecenas quis massa nisi. Morbi venenatis sapien lobortis nisl tincidunt vulputate. Vivamus ultrices ornare elit, id fermentum justo lacinia non. Donec posuere neque nec magna aliquam, aliquam gravida nunc porta. Donec arcu metus, mollis eget nibh sit amet, dapibus porttitor lectus. Fusce quis gravida eros. Nunc quis ultrices nisi. Vestibulum dapibus quam nec felis rhoncus blandit. Proin at lorem sed tellus fringilla porttitor in ut sem. Ut eros sem, molestie sit amet lacus ut, volutpat luctus ipsum. Etiam vehicula tortor et nunc aliquet, id vehicula nulla volutpat.</p>
-      <p>In hac habitasse platea dictumst. Integer mattis ac massa vel porta. Etiam ornare, ex eu accumsan pretium, massa libero suscipit ipsum, sed accumsan magna sem vitae est. Donec bibendum, erat vitae volutpat posuere, neque metus congue diam, quis sollicitudin massa risus ut quam. Ut lacinia leo massa, at laoreet nibh porttitor facilisis. Nunc sed erat sed dui iaculis ornare ut et urna. Nunc ut laoreet mauris. Proin tempor tincidunt gravida. Mauris odio lorem, accumsan a tortor ac, pulvinar dictum eros. Fusce fringilla ligula ac elit efficitur, vitae porttitor sapien ultrices. Nunc tincidunt, metus eu tincidunt lobortis, sapien ex malesuada risus, id pellentesque dolor lacus vel risus. Nulla mattis at risus feugiat ultrices. Aliquam diam leo, pulvinar eget posuere nec, vulputate id dolor. Nam porttitor vestibulum augue eget dictum. Duis suscipit dui eget arcu suscipit auctor.</p>
-      <p>Pellentesque luctus dictum tellus id tincidunt. Nam pharetra erat lacus, ac viverra leo mattis non. Morbi pharetra ut metus eget consectetur. Quisque non dictum nibh, at sagittis nisl. Maecenas quis massa nisi. Morbi venenatis sapien lobortis nisl tincidunt vulputate. Vivamus ultrices ornare elit, id fermentum justo lacinia non. Donec posuere neque nec magna aliquam, aliquam gravida nunc porta. Donec arcu metus, mollis eget nibh sit amet, dapibus porttitor lectus. Fusce quis gravida eros. Nunc quis ultrices nisi. Vestibulum dapibus quam nec felis rhoncus blandit. Proin at lorem sed tellus fringilla porttitor in ut sem. Ut eros sem, molestie sit amet lacus ut, volutpat luctus ipsum. Etiam vehicula tortor et nunc aliquet, id vehicula nulla volutpat.</p>
-      <p>Pellentesque luctus dictum tellus id tincidunt. Nam pharetra erat lacus, ac viverra leo mattis non. Morbi pharetra ut metus eget consectetur. Quisque non dictum nibh, at sagittis nisl. Maecenas quis massa nisi. Morbi venenatis sapien lobortis nisl tincidunt vulputate. Vivamus ultrices ornare elit, id fermentum justo lacinia non. Donec posuere neque nec magna aliquam, aliquam gravida nunc porta. Donec arcu metus, mollis eget nibh sit amet, dapibus porttitor lectus. Fusce quis gravida eros. Nunc quis ultrices nisi. Vestibulum dapibus quam nec felis rhoncus blandit. Proin at lorem sed tellus fringilla porttitor in ut sem. Ut eros sem, molestie sit amet lacus ut, volutpat luctus ipsum. Etiam vehicula tortor et nunc aliquet, id vehicula nulla volutpat.</p>
-      <p>Pellentesque luctus dictum tellus id tincidunt. Nam pharetra erat lacus, ac viverra leo mattis non. Morbi pharetra ut metus eget consectetur. Quisque non dictum nibh, at sagittis nisl. Maecenas quis massa nisi. Morbi venenatis sapien lobortis nisl tincidunt vulputate. Vivamus ultrices ornare elit, id fermentum justo lacinia non. Donec posuere neque nec magna aliquam, aliquam gravida nunc porta. Donec arcu metus, mollis eget nibh sit amet, dapibus porttitor lectus. Fusce quis gravida eros. Nunc quis ultrices nisi. Vestibulum dapibus quam nec felis rhoncus blandit. Proin at lorem sed tellus fringilla porttitor in ut sem. Ut eros sem, molestie sit amet lacus ut, volutpat luctus ipsum. Etiam vehicula tortor et nunc aliquet, id vehicula nulla volutpat.</p>
+      <p>感谢大哥选择订阅我的发布！Big brother drink Coca Cola 🍻</p>
+      <h2>如何订阅我在各个平台的发布内容？</h2>
+      <p>事实上，我除了在少数派更新文章、在 Listed 上更新博客，还会在其他平台比如 Twitter 以及微博更新「碎碎念」，甚至还有可能在 Instagram 上发布照片等等。因此如果同学希望能够直接订阅我的全部发布，我推荐使用优秀的订阅抓取与管理 App ——「快知」。</p>
+      <Card
+        msg="快知"
+        backgroundColor="#168FEC"
+        description="直接订阅我在各个平台的发布"
+        textColor="#FFFFFF"
+        icon="kuaizhi.png"
+        link="https://kz.sync163.com/web/topic/dP8yRN01yrwA6?uid=q1opr09GyJ58V"
+      />
     </div>
   </div>
 </template>
+
+<script>
+import Card from './Card.vue'
+
+export default {
+  name: 'subscribe',
+  components: {
+    Card
+  }
+}
+</script>
+
+<style lang="css" scoped>
+h2 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 18px;
+}
+</style>

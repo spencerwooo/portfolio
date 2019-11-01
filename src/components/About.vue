@@ -2,7 +2,7 @@
   <div class="container">
     <h1>👓</h1>
     <h1>About</h1>
-    <p>关于我：我做过的事情、感兴趣的东西，以及我的经历</p>
+    <p>我做过的事情、感兴趣的东西，以及我的经历</p>
 
     <hr id="top-hr" />
     <div class="article">
