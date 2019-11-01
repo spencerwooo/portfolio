@@ -4,9 +4,9 @@ import VueRouter from 'vue-router'
 import VueParticles from 'vue-particles'
 import VueNavigationBar from 'vue-navigation-bar'
 
-import Home from './components/Home.vue'
-import About from './components/About.vue'
-import Subscribe from './components/Subscribe.vue'
+import Home from './views/Home.vue'
+import About from './views/About.vue'
+import Subscribe from './views/Subscribe.vue'
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
