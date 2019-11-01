@@ -11,42 +11,63 @@
       <h2>如何订阅我在各个平台的发布内容？</h2>
       <p>事实上，我除了在少数派更新文章、在 Listed 上更新博客，还会在其他平台比如 Twitter 以及微博更新「碎碎念」，甚至还有可能在 Instagram 上发布照片等等。因此如果同学希望能够直接订阅我的全部发布，我推荐使用优秀的订阅抓取与管理 App ——「快知」。</p>
       <p>直接点击下方链接，就可以进入「快知 - SpencerWoo」的主题订阅地址，下载「快知 App」即可订阅我的全部平台内容的更新。</p>
-      <Card
+      <AppCard
         msg="快知"
-        backgroundColor="#168FEC"
+        stars="⭐⭐⭐⭐⭐"
         description="直接订阅我在各个平台的发布"
-        textColor="#FFFFFF"
         icon="kuaizhi.png"
-        link="https://kz.sync163.com/web/topic/dP8yRN01yrwA6?uid=q1opr09GyJ58V"
+        link1Tooltip="下载「快知 App」"
+        link2Tooltip="快知 -「SpencerWoo」又开始发各种东西了"
+        link1="https://apps.apple.com/cn/app/%E5%BF%AB%E7%9F%A5-%E8%AE%A9%E4%BF%A1%E6%81%AF%E8%8E%B7%E5%8F%96%E6%9B%B4%E9%AB%98%E6%95%88/id1465578855"
+        link2="https://kz.sync163.com/web/topic/dP8yRN01yrwA6?uid=q1opr09GyJ58V"
+        rightIcon1="app.png"
+        rightIcon2="bookmark.png"
       />
 
       <h2>如何只订阅我的少数派文章？</h2>
       <p>我的主要输出战场是少数派，因此如果希望只订阅我的少数派文章，可以通过 RSS 进行订阅管理。</p>
-      <p>RSS 是一个非常简单且方便管理的信息聚合管理协议，是一种 <a href="https://zh.wikipedia.org/wiki/RSS">消息来源格式规范</a>，用以聚合经常发布更新数据的网站，例如博客文章、新闻、音频或视频的网摘。利用 RSS 同学们可以非常方便的订阅我的文章更新。借助于 RSSHub，我为我自己的文章生成了一个 RSS 订阅链接，点击下方链接并复制进入你的 RSS 阅读器即可实时获得我的文章更新。</p>
-      <Card
-        msg="少数派 RSS 订阅"
-        backgroundColor="#ca2c2a"
+      <p>
+        RSS 是一个非常简单且方便管理的信息聚合管理协议，是一种
+        <a href="https://zh.wikipedia.org/wiki/RSS">消息来源格式规范</a>，用以聚合经常发布更新数据的网站，例如博客文章、新闻、音频或视频的网摘。利用 RSS 同学们可以非常方便的订阅我的文章更新。借助于 RSSHub，我为我自己的文章生成了一个 RSS 订阅链接，点击下方链接并复制进入你的 RSS 阅读器即可实时获得我的文章更新。
+      </p>
+      <AppCard
+        msg="RSS 订阅"
+        stars="⭐⭐⭐⭐"
         description="利用 RSS 订阅我的少数派文章更新"
-        textColor="#FFFFFF"
-        icon="sspai.png"
-        link="https://rsshub.app/sspai/author/800610"
+        icon="sspai-red.png"
+        link1Tooltip="下载「少数派」App"
+        link2Tooltip="我的少数派文章 RSS 订阅链接"
+        link1="https://apps.apple.com/cn/app/%E5%B0%91%E6%95%B0%E6%B4%BE/id1191720421"
+        link2="https://rsshub.app/sspai/author/800610"
+        rightIcon1="app.png"
+        rightIcon2="rss.png"
       />
       <p>另外，第一次接触 RSS 的同学如果感觉陌生，也可以先阅读这两篇文章，它们分别介绍了 RSS 具体怎么用，以及如何具体利用 RSS 订阅我的文章：</p>
       <ul>
-        <li><a href="https://diygod.me/ohmyrss/">DIYgod - 我有特别的 RSS 使用技巧</a></li>
-        <li><a href="https://archive.spencerwoo.com/posts/2019/07/11/an-easy-way-to-subscribe.html">SpencerWoo - 如何利用 RSS 订阅我的文章</a></li>
+        <li>
+          <a href="https://diygod.me/ohmyrss/">DIYgod - 我有特别的 RSS 使用技巧</a>
+        </li>
+        <li>
+          <a
+            href="https://archive.spencerwoo.com/posts/2019/07/11/an-easy-way-to-subscribe.html"
+          >SpencerWoo - 如何利用 RSS 订阅我的文章</a>
+        </li>
       </ul>
 
       <h2>如何只订阅我的博客（Listed）文章？</h2>
       <p>Listed 是一个独立的小众博客平台，我偶尔会选择在 Listed 上面更新我的个人博客、技术文章等等内容。希望订阅我的 Listed 博客的同学可以利用 Listed 自带的「邮件订阅」功能，更为方便及时的订阅我的文章发布。</p>
       <p>点击下方链接，直接进入我的 Listed 博客，在右上角就能看的 Subscribe to @spwoo's posts 的选项。在那里填写你的邮箱，即可直接订阅我的博客文章发布。</p>
-      <Card
-        msg="Listed 博客订阅"
-        backgroundColor="#f6f6f6"
+      <AppCard
+        msg="Listed 博客"
+        stars="⭐⭐⭐"
         description="利用邮件订阅我的 Listed 博客更新"
-        textColor="#2c2c2c"
         icon="s.notes.png"
-        link="https://listed.to/@spwoo"
+        link1Tooltip="Standard Notes 文章发布工具下载"
+        link2Tooltip="打开 Listed 博客平台，订阅我的博客发布"
+        link1="https://standardnotes.org"
+        link2="https://listed.to/@spwoo"
+        rightIcon1="stnotes-icon.png"
+        rightIcon2="bookmark.png"
       />
 
       <h2>最后，感谢。</h2>
@@ -56,12 +77,12 @@
 </template>
 
 <script>
-import Card from '@/components/Card.vue'
+import AppCard from '@/components/AppCard.vue'
 
 export default {
   name: 'subscribe',
   components: {
-    Card
+    AppCard
   }
 }
 </script>
