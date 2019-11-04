@@ -19,7 +19,7 @@
         description="✏️ 主要输出战场！"
         textColor="#FFFFFF"
         icon="sspai.png"
-        link="https://beta.sspai.com/u/spencerwoo/posts"
+        link="https://sspai.com/u/spencerwoo/posts"
       />
       <Card
         msg="Listed"
