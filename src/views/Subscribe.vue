@@ -91,10 +91,23 @@ export default {
 h2 {
   font-weight: 700;
   font-size: 20px;
+  padding: 10px 0;
 }
 
 h3 {
   font-weight: 700;
   font-size: 18px;
+  padding: 18px 0 0 0;
+  margin: 0;
+}
+
+ul {
+  padding-left: 15px;
+  line-height: 30px;
+  margin: 0;
+}
+
+p {
+  line-height: 30px;
 }
 </style>

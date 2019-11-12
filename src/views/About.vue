@@ -14,30 +14,235 @@
         <a href="https://github.com/spencerwooo">GitHub</a> 上面，欢迎大家 Star + Fork，笔芯 (✿◡‿◡)
       </p>
 
-      <h3>
-        <a href="https://github.com/spencerwooo/dowww">📟 Dev on Windows with WSL</a>
-      </h3>
-      <p>Dev on Windows with WSL：在 Windows 上用 WSL 优雅开发。主站：<a href="https://dowww.spencerwoo.com/">Dev on Windows with WSL</a></p>
+      <div class="github-project-card">
+        <h3>
+          <a href="https://github.com/spencerwooo/dowww">📟 Dev on Windows with WSL</a>
+        </h3>
+        <p>
+          Dev on Windows with WSL：在 Windows 上用 WSL 优雅开发。目前我关注量与 Star 数量最高的一个项目，主要介绍了如何在 Windows 10 中引进的 Windows Subsystem for Linux 中进行开发与工作。主站：
+          <a
+            href="https://dowww.spencerwoo.com/"
+          >Dev on Windows with WSL</a>
+        </p>
+        <div class="github-repo-stats">
+          <a href="https://github.com/spencerwooo/dowww/stargazers">
+            <svg
+              aria-label="stars"
+              class="octicon octicon-star"
+              viewBox="0 0 14 16"
+              version="1.1"
+              width="14"
+              height="16"
+              role="img"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"
+              />
+            </svg>
+            {{ dowwwInfo.stargazers_count }}
+          </a>
+          <a href="https://github.com/spencerwooo/dowww/network/members">
+            <svg
+              aria-label="forks"
+              class="octicon octicon-repo-forked"
+              viewBox="0 0 10 16"
+              version="1.1"
+              width="10"
+              height="16"
+              role="img"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"
+              />
+            </svg>
+            {{ dowwwInfo.forks_count }}
+          </a>
+        </div>
+      </div>
 
-      <h3>
-        <a href="https://github.com/spencerwooo/BITCS-Coursework">📘 BITCS Coursework 大合集</a>
-      </h3>
-      <p>不完整北京理工大学计算机学院课程项目资料清单。</p>
+      <div class="github-project-card">
+        <h3>
+          <a href="https://github.com/spencerwooo/BITCS-Coursework">📘 BITCS Coursework 大合集</a>
+        </h3>
+        <p>不完整北京理工大学计算机学院课程项目资料清单。这一份清单大致包含了北京理工大学计算机学院，计算机科学与技术专业，大学本科过程中的全部课程任务和代码项目。清单中包含的项目全部都是我自己参与开发编写，实测符合课程要求。</p>
+        <div class="github-repo-stats">
+          <a href="https://github.com/spencerwooo/BITCS-Coursework/stargazers">
+            <svg
+              aria-label="stars"
+              class="octicon octicon-star"
+              viewBox="0 0 14 16"
+              version="1.1"
+              width="14"
+              height="16"
+              role="img"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"
+              />
+            </svg>
+            {{ bitcsInfo.stargazers_count }}
+          </a>
+          <a href="https://github.com/spencerwooo/BITCS-Coursework/network/members">
+            <svg
+              aria-label="forks"
+              class="octicon octicon-repo-forked"
+              viewBox="0 0 10 16"
+              version="1.1"
+              width="10"
+              height="16"
+              role="img"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"
+              />
+            </svg>
+            {{ bitcsInfo.forks_count }}
+          </a>
+        </div>
+      </div>
 
-      <h3>
-        <a href="https://github.com/SecureCats">🥇 The Fully Anonymous Teaching Evaluation System</a>
-      </h3>
-      <p>Secure Cats 团队作品：基于零知识证明和 CL 签名的匿名课程评价系统。推荐阅读：<a href="https://medium.com/spencerweekly/recap-on-fates-d9d17a6a7827">什么时候「匿名」才是合理的？| 匿名评教平台复盘</a></p>
+      <div class="github-project-card">
+        <h3>
+          <a href="https://github.com/SecureCats">🥇 The Fully Anonymous Teaching Evaluation System</a>
+        </h3>
+        <p>
+          Secure Cats 团队作品：基于零知识证明和 CL 签名的匿名课程评价系统。这一评教系统参加了「2019 年大学生信息安全竞赛 —— 作品赛」，荣获国家级二等奖。推荐阅读：
+          <a
+            href="https://medium.com/spencerweekly/recap-on-fates-d9d17a6a7827"
+          >什么时候「匿名」才是合理的？| 匿名评教平台复盘</a>
+        </p>
+        <div class="github-repo-stats">
+          <a href="https://github.com/SecureCats/Evaluation_BackEnd/stargazers">
+            <svg
+              aria-label="stars"
+              class="octicon octicon-star"
+              viewBox="0 0 14 16"
+              version="1.1"
+              width="14"
+              height="16"
+              role="img"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"
+              />
+            </svg>
+            {{ fatesInfo.stargazers_count }}
+          </a>
+          <a href="https://github.com/SecureCats/Evaluation_BackEnd/network/members">
+            <svg
+              aria-label="forks"
+              class="octicon octicon-repo-forked"
+              viewBox="0 0 10 16"
+              version="1.1"
+              width="10"
+              height="16"
+              role="img"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"
+              />
+            </svg>
+            {{ fatesInfo.forks_count }}
+          </a>
+        </div>
+      </div>
 
-      <h3>
-        <a href="https://github.com/spencerwooo/jsbox-sspai-namecard">🎫 少数派作者名片 | 一个 JSBox 小组件</a>
-      </h3>
-      <p>适合新版本少数派的作者名片，搭建在 JSBox 上。推荐阅读：<a href="https://beta.sspai.com/post/55562">新版少数派网站的作者成就墙好好看啊，于是我用它写了一个 JSBox 小插件</a></p>
+      <div class="github-project-card">
+        <h3>
+          <a href="https://github.com/spencerwooo/jsbox-sspai-namecard">🎫 少数派作者名片 | 一个 JSBox 小组件</a>
+        </h3>
+        <p>
+          适合新版本少数派的作者名片，搭建在 JSBox 上。推荐阅读：
+          <a
+            href="https://sspai.com/post/55562"
+          >新版少数派网站的作者成就墙好好看啊，于是我用它写了一个 JSBox 小插件</a>
+        </p>
+        <div class="github-repo-stats">
+          <a href="https://github.com/spencerwooo/jsbox-sspai-namecard/stargazers">
+            <svg
+              aria-label="stars"
+              class="octicon octicon-star"
+              viewBox="0 0 14 16"
+              version="1.1"
+              width="14"
+              height="16"
+              role="img"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"
+              />
+            </svg>
+            {{ sspaiCardInfo.stargazers_count }}
+          </a>
+          <a href="https://github.com/spencerwooo/jsbox-sspai-namecard/network/members">
+            <svg
+              aria-label="forks"
+              class="octicon octicon-repo-forked"
+              viewBox="0 0 10 16"
+              version="1.1"
+              width="10"
+              height="16"
+              role="img"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"
+              />
+            </svg>
+            {{ sspaiCardInfo.forks_count }}
+          </a>
+        </div>
+      </div>
 
-      <h3>
-        <a href="https://github.com/spencerwooo/dotfiles">🎃 我的 dotfiles</a>
-      </h3>
-      <p>我的各种配置清单。从终端到 Vim，从 macOS 到 Windows，应有尽有。</p>
+      <div class="github-project-card">
+        <h3>
+          <a href="https://github.com/spencerwooo/dotfiles">🎃 我的 dotfiles</a>
+        </h3>
+        <p>我的各种配置清单。从终端到 Vim，从 macOS 到 Windows，应有尽有。</p>
+        <div class="github-repo-stats">
+          <a href="https://github.com/spencerwooo/dotfiles/stargazers">
+            <svg
+              aria-label="stars"
+              class="octicon octicon-star"
+              viewBox="0 0 14 16"
+              version="1.1"
+              width="14"
+              height="16"
+              role="img"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"
+              />
+            </svg>
+            {{ dotfilesInfo.stargazers_count }}
+          </a>
+          <a href="https://github.com/spencerwooo/dotfiles/network/members">
+            <svg
+              aria-label="forks"
+              class="octicon octicon-repo-forked"
+              viewBox="0 0 10 16"
+              version="1.1"
+              width="10"
+              height="16"
+              role="img"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"
+              />
+            </svg>
+            {{ dotfilesInfo.forks_count }}
+          </a>
+        </div>
+      </div>
 
       <h2>我的设备</h2>
       <ul>
@@ -104,14 +309,108 @@
   </div>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      dowwwInfo: {
+        stargazers_count: 0,
+        forks_count: 0
+      },
+      bitcsInfo: {
+        stargazers_count: 0,
+        forks_count: 0
+      },
+      fatesInfo: {
+        stargazers_count: 0,
+        forks_count: 0
+      },
+      sspaiCardInfo: {
+        stargazers_count: 0,
+        forks_count: 0
+      },
+      dotfilesInfo: {
+        stargazers_count: 0,
+        forks_count: 0
+      }
+    }
+  },
+  mounted() {
+    this.axios
+      .get('https://api.github.com/repos/spencerwooo/dowww')
+      .then(resp => {
+        this.dowwwInfo = resp.data
+      })
+    this.axios
+      .get('https://api.github.com/repos/spencerwooo/BITCS-Coursework')
+      .then(resp => {
+        this.bitcsInfo = resp.data
+      })
+    this.axios
+      .get('https://api.github.com/repos/SecureCats/Evaluation_BackEnd')
+      .then(resp => {
+        this.fatesInfo = resp.data
+      })
+    this.axios
+      .get('https://api.github.com/repos/spencerwooo/jsbox-sspai-namecard')
+      .then(resp => {
+        this.sspaiCardInfo = resp.data
+      })
+    this.axios
+      .get('https://api.github.com/repos/spencerwooo/dotfiles')
+      .then(resp => {
+        this.dotfilesInfo = resp.data
+      })
+  }
+}
+</script>
+
 <style lang="css" scoped>
 h2 {
   font-weight: 700;
   font-size: 20px;
+  padding: 10px 0;
 }
 
 h3 {
   font-weight: 700;
   font-size: 18px;
+  padding: 18px 0 0 0;
+  margin: 0;
+}
+
+.github-project-card {
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  padding: 0 15px 15px 15px;
+  margin: 10px 0;
+}
+
+.github-project-card p {
+  line-height: inherit;
+}
+
+.github-project-card .github-repo-stats a {
+  color: #24292e;
+  padding-right: 20px;
+  font-size: 14px;
+}
+
+.github-project-card .github-repo-stats a:hover {
+  border: none;
+}
+
+.octicon {
+  vertical-align: text-top;
+}
+
+ul {
+  padding-left: 15px;
+  line-height: 30px;
+  margin: 0;
+}
+
+p {
+  line-height: 30px;
 }
 </style>

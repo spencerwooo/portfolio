@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import VueParticles from 'vue-particles'
 import VueNavigationBar from 'vue-navigation-bar'
 import VTooltip from 'v-tooltip'
+import axios from 'axios'
 
 import Home from './views/Home.vue'
 import About from './views/About.vue'
@@ -24,6 +25,8 @@ const router = new VueRouter({
     { path: '/subscribe', component: Subscribe }
   ]
 })
+
+Vue.prototype.axios = axios
 
 new Vue({
   router,
