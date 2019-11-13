@@ -22,12 +22,12 @@
         link="https://sspai.com/u/spencerwoo/posts"
       />
       <Card
-        msg="Listed"
-        backgroundColor="#168FEC"
+        msg="Spencer's Blog"
+        backgroundColor="#68bac9"
         description="📒 从头开始的博客（咕咕咕）"
         textColor="#FFFFFF"
-        icon="s.notes.png"
-        link="https://listed.to/@spwoo"
+        icon="hugo.png"
+        link="https://blog.spencerwoo.com"
       />
       <Card
         msg="GitHub"
