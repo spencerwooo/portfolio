@@ -23,10 +23,10 @@
       />
       <Card
         msg="博客 Blog"
-        backgroundColor="#68bac9"
+        backgroundColor="#0083c0"
         description="📒 从头开始（咕咕咕）"
         textColor="#FFFFFF"
-        icon="hugo.png"
+        icon="netlify.png"
         link="https://blog.spencerwoo.com"
       />
       <Card
