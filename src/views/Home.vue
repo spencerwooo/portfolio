@@ -22,9 +22,9 @@
         link="https://sspai.com/u/spencerwoo/posts"
       />
       <Card
-        msg="Spencer's Blog"
+        msg="博客 Blog"
         backgroundColor="#68bac9"
-        description="📒 从头开始的博客（咕咕咕）"
+        description="📒 从头开始（咕咕咕）"
         textColor="#FFFFFF"
         icon="hugo.png"
         link="https://blog.spencerwoo.com"
