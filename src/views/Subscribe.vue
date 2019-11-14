@@ -54,20 +54,19 @@
         </li>
       </ul>
 
-      <h2>如何只订阅我的博客（Listed）文章？</h2>
-      <p>Listed 是一个独立的小众博客平台，我偶尔会选择在 Listed 上面更新我的个人博客、技术文章等等内容。希望订阅我的 Listed 博客的同学可以利用 Listed 自带的「邮件订阅」功能，更为方便及时的订阅我的文章发布。</p>
-      <p>点击下方链接，直接进入我的 Listed 博客，在右上角就能看的 Subscribe to @spwoo's posts 的选项。在那里填写你的邮箱，即可直接订阅我的博客文章发布。</p>
+      <h2>如何只订阅我的 Hugo 博客？</h2>
+      <p>Hugo 是「全世界最快的静态网站编译框架」，我选择 Hugo 作为我的博客引擎，部署于 Netlify 上面。同样，我提供了 RSS 订阅链接，利用上面介绍的方法就可以直接订阅我的个人博客啦~</p>
       <AppCard
-        msg="Listed 博客"
+        msg="Hugo 博客"
         stars="⭐⭐⭐"
-        description="利用邮件订阅我的 Listed 博客更新"
-        icon="s.notes.png"
-        link1Tooltip="Standard Notes 文章发布工具下载"
-        link2Tooltip="打开 Listed 博客平台，订阅我的博客发布"
-        link1="https://standardnotes.org"
-        link2="https://listed.to/@spwoo"
-        rightIcon1="stnotes-icon.png"
-        rightIcon2="bookmark.png"
+        description="利用 RSS 订阅我的博客更新"
+        icon="netlify-color.png"
+        link1Tooltip="我的博客地址"
+        link2Tooltip="我的博客 RSS 订阅链接"
+        link1="https://blog.spencerwoo.com/"
+        link2="https://blog.spencerwoo.com/posts/index.xml"
+        rightIcon1="bookmark.png"
+        rightIcon2="rss-blue.png"
       />
 
       <h2>最后，感谢。</h2>
