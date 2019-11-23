@@ -60,7 +60,7 @@
         msg="Hugo 博客"
         stars="⭐⭐⭐"
         description="利用 RSS 订阅我的博客更新"
-        icon="netlify-color.png"
+        icon="cola.png"
         link1Tooltip="我的博客地址"
         link2Tooltip="我的博客 RSS 订阅链接"
         link1="https://blog.spencerwoo.com/"
