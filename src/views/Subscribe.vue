@@ -10,7 +10,7 @@
       <p>感谢大哥选择订阅我的发布！Big brother drink Coca Cola 🍻</p>
       <h2>如何订阅我在各个平台的发布内容？</h2>
       <p>事实上，我除了在少数派更新文章、在 Listed 上更新博客，还会在其他平台比如 Twitter 以及微博更新「碎碎念」，甚至还有可能在 Instagram 上发布照片等等。因此如果同学希望能够直接订阅我的全部发布，我推荐使用优秀的订阅抓取与管理 App ——「快知」。</p>
-      <p>直接点击下方链接，就可以进入「快知 - SpencerWoo」的主题订阅地址，下载「快知 App」即可订阅我的全部平台内容的更新。</p>
+      <p>直接点击下方链接，就可以进入「快知 - SpencerWoo」的主题订阅地址，下载「快知 App」即可订阅我的全部平台内容的更新。<strong>欢迎大家使用我的邀请码：F2Z5L</strong></p>
       <AppCard
         msg="快知"
         stars="⭐⭐⭐⭐⭐"
@@ -18,7 +18,7 @@
         icon="kuaizhi.png"
         link1Tooltip="下载「快知 App」"
         link2Tooltip="快知 -「SpencerWoo」又开始发各种东西了"
-        link1="https://apps.apple.com/cn/app/%E5%BF%AB%E7%9F%A5-%E8%AE%A9%E4%BF%A1%E6%81%AF%E8%8E%B7%E5%8F%96%E6%9B%B4%E9%AB%98%E6%95%88/id1465578855"
+        link1="https://kzfeed.com/?r=F2Z5L"
         link2="https://kz.sync163.com/web/topic/dP8yRN01yrwA6?uid=q1opr09GyJ58V"
         rightIcon1="app.png"
         rightIcon2="bookmark.png"
