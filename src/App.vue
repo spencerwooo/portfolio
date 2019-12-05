@@ -2,7 +2,7 @@
   <div id="app">
     <vue-particles
       class="particles"
-      color="#ca2c2a"
+      color="#0f4c81"
       :particleOpacity="0.3"
       :particlesNumber="20"
       shapeType="circle"
@@ -87,7 +87,13 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap');
+@font-face {
+  font-family: 'Product Sans';
+  src: url('assets/ProductSans-Regular.woff2') format('woff2'),
+    url('assets/ProductSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .particles {
   position: absolute;
@@ -105,7 +111,7 @@ body {
 }
 
 body {
-  border-top: #ca2c2a 5px solid;
+  border-top: #0f4c81 5px solid;
 }
 
 .animation-fade-in {
@@ -115,9 +121,9 @@ body {
 }
 
 #app {
-  font-family: 'Nunito Sans', 'Avenir Next', -apple-system, BlinkMacSystemFont,
-    Segoe UI, Helvetica, Arial, 'PingFang SC', 'Noto Sans CJK SC',
-    'Microsoft YaHei', sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-family: 'Product Sans', 'Avenir Next', -apple-system, BlinkMacSystemFont,
+    Segoe UI, Helvetica, Arial, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei',
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #24292e;
@@ -141,17 +147,17 @@ body {
 #main-navbar .button-github {
   background: white;
   color: #24292e;
-  border: 1px solid #ca2c2a;
+  border: 1px solid #0f4c81;
   /* border-radius: 50px; */
   transition: 0.3s;
 }
 
 #main-navbar .button-github:hover {
-  background: #ca2c2a;
+  background: #0f4c81;
   color: #ffffff;
-  -webkit-box-shadow: 0px 10px 40px -10px #ca2c2a;
-  -moz-box-shadow: 0px 10px 40px -10px #ca2c2a;
-  box-shadow: 0px 10px 40px -10px #ca2c2a;
+  -webkit-box-shadow: 0px 10px 40px -10px #0f4c81;
+  -moz-box-shadow: 0px 10px 40px -10px #0f4c81;
+  box-shadow: 0px 10px 40px -10px #0f4c81;
 }
 
 .vnb__collapse-button img {
@@ -229,7 +235,7 @@ span {
 #top-hr {
   width: 100px;
   margin: 60px auto;
-  border-top: solid 3px #ca2c2a;
+  border-top: solid 3px #0f4c81;
 }
 
 .social-media-card {
@@ -246,11 +252,11 @@ span {
 
 .container a {
   text-decoration: none;
-  color: #ca2c2a;
+  color: #0f4c81;
 }
 
 .container a:hover {
-  border-bottom: #ca2c2a solid 1px;
+  border-bottom: #0f4c81 solid 1px;
 }
 
 #others {
