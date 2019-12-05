@@ -2,12 +2,23 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b78fe007-3630-48ab-9476-d4abf49459f6/deploy-status)](https://app.netlify.com/sites/spencer/deploys)
 
-## Whereabouts
+## Copyright
 
-1. New 'start-from-scratch' blog: [Listed - @spwoo](https://listed.to/@spwoo)
-2. Articles at sspai: [少数派 sspai - Spencer Woo](https://sspai.com/u/spencerwoo/posts)
-3. Medium publication: [Medium - SpencerWeekly](https://medium.com/spencerweekly)
-4. Original blog archive: [Archives](https://archive.spencerwoo.com)
+Please use the badge below if you were to deploy this site by yourself:
+
+如果你使用了我的模板自己部署，请记得加上下面的 Badge，感谢：
+
+[![](https://flat.badgen.net/badge/Designed%20by/@SpencerWoo/red)](https://github.com/spencerwooo/portfolio)
+
+```html
+<a href="https://github.com/spencerwooo/portfolio">
+  <img src="https://flat.badgen.net/badge/Designed%20by/@SpencerWoo/red" alt="copyright" />
+</a>
+```
+
+```markdown
+[![](https://flat.badgen.net/badge/Designed%20by/@SpencerWoo/red)](https://github.com/spencerwooo/portfolio)
+```
 
 ## Project setup
 
