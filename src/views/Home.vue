@@ -59,8 +59,15 @@
         </div>
       </div>
 
-      <!-- <hr /> -->
       <p>🧨 感谢大哥的关注！给您拜年了！干杯 🍻</p>
+
+      <hr />
+
+      <h3>Want to use this template on your website?</h3>
+      <p>想要用我的模板搭建自己的 Portfolio？请记得不要删掉下面的 Badge，谢谢。</p>
+      <a href="https://github.com/spencerwooo/portfolio">
+        <img src="https://flat.badgen.net/badge/Designed%20by/@SpencerWoo/red" alt="copyright" />
+      </a>
     </div>
   </div>
 </template>

@@ -41,7 +41,9 @@
         </p>
         <p>
           Designed, coded, and deployed from scratch by Spencer Woo. Open source on
-          <a href="https://github.com/spencerwooo/portfolio">GitHub</a>.
+          <a
+            href="https://github.com/spencerwooo/portfolio"
+          >GitHub</a>.
         </p>
         <p id="busuanzi_container_site_pv">
           Viewed by you guys for a total of
