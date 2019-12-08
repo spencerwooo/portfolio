@@ -301,7 +301,7 @@
         </li>
         <li>
           ✈ Telegram：
-          <a href="https://t.me/Spencer_Woo">t.me/Spencer_Woo</a>
+          <a href="https://t.me/SpencerWoo">t.me/SpencerWoo</a>
         </li>
         <li>📍 Beijing Institute of Technology, Beijing, China</li>
       </ul>
