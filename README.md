@@ -1,4 +1,4 @@
-# Portfolio
+# 💎 Portfolio
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b78fe007-3630-48ab-9476-d4abf49459f6/deploy-status)](https://app.netlify.com/sites/spencer/deploys)
 
@@ -53,3 +53,11 @@ yarn run lint
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+---
+
+**💎 Portfolio** ©Spencer Woo. Released under the [MIT License](./LICENSE).
+
+Authored and maintained by Spencer Woo.
+
+[@Portfolio](https://spencerwoo.com) · [@GitHub](https://github.com/spencerwooo) · [@BIT](http://www.bit.edu.cn/)
