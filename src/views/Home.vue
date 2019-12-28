@@ -47,7 +47,7 @@
           <img class="media-icon" src="@/assets/weibo.png" alt="weibo" />
           <span>
             Weibo:
-            <a href="https://weibo.com/u/6265807914">@SPNCR</a>
+            <a href="https://weibo.com/spencerwoo">@SPNCR</a>
           </span>
         </div>
         <div class="social-media-card">
