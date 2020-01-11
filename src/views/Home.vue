@@ -2,7 +2,7 @@
   <div class="container">
     <img id="avatar" alt="avatar" src="./../assets/icon.jpg" />
     <h1>Spencer Woo</h1>
-    <h2>👨‍🎨 👨‍💻 🙋‍♂️ .DS_Store</h2>
+    <h2>👨‍🎨 👨‍💻 🙋‍♂️</h2>
 
     <p>CS 在读 / 少数派资深作者 / Arch Linux 精神用户 / 人民艺术家</p>
     <p>
@@ -41,7 +41,7 @@
 
     <div id="others">
       <hr />
-      <h3>我还偶尔出没于：</h3>
+      <h3>你还可以在这些地方偶尔发现一只我：</h3>
       <div class="social-media">
         <div class="social-media-card">
           <img class="media-icon" src="@/assets/weibo.png" alt="weibo" />
@@ -61,7 +61,7 @@
           <img class="media-icon" src="@/assets/telegram.png" alt="telegram" />
           <span>
             Telegram Channel:
-            <a href="https://t.me/realSpencerWoo">t.me/realSpencerWoo</a>
+            <a href="https://t.me/realSpencerWoo">@realSpencerWoo</a> | <a href="https://tg.spencerwoo.com">Post archives</a>
           </span>
         </div>
       </div>
