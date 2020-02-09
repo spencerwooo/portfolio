@@ -9,7 +9,7 @@
       <!-- <h3>🚧 Under construction</h3> -->
       <p>感谢大哥选择订阅我的发布！Big brother drink Coca Cola 🍻</p>
       <h2>如何订阅我在各个平台的发布内容？</h2>
-      <p>事实上，我除了在少数派更新文章、在 Listed 上更新博客，还会在其他平台比如 Twitter 以及微博更新「碎碎念」，甚至还有可能在 Instagram 上发布照片等等。因此如果同学希望能够直接订阅我的全部发布，我推荐使用优秀的订阅抓取与管理 App ——「快知」。</p>
+      <p>事实上，我除了在少数派更新文章、并用 Hugo 部署博客，还会在其他平台比如 Twitter 以及微博更新「碎碎念」，甚至还有可能在 Instagram 上发布照片等等。因此如果同学希望能够直接订阅我的全部发布，我推荐使用优秀的订阅抓取与管理 App ——「快知」。</p>
       <p>直接点击下方链接，就可以进入「快知 - SpencerWoo」的主题订阅地址，下载「快知 App」即可订阅我的全部平台内容的更新。<strong>欢迎大家使用我的邀请码：F2Z5L</strong></p>
       <AppCard
         msg="快知"
@@ -58,9 +58,9 @@
       <p>Hugo 是「全世界最快的静态网站编译框架」，我选择 Hugo 作为我的博客引擎，部署于 Netlify 上面。同样，我提供了 RSS 订阅链接，利用上面介绍的方法就可以直接订阅我的个人博客啦~</p>
       <AppCard
         msg="Hugo 博客"
-        stars="⭐⭐⭐"
+        stars="⭐⭐⭐⭐"
         description="利用 RSS 订阅我的博客更新"
-        icon="cola.png"
+        icon="bulb.png"
         link1Tooltip="我的博客地址"
         link2Tooltip="我的博客 RSS 订阅链接"
         link1="https://blog.spencerwoo.com/"

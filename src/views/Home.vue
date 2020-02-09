@@ -4,7 +4,7 @@
     <h1>Spencer Woo</h1>
     <h2>👨‍🎨 👨‍💻 🙋‍♂️</h2>
 
-    <p>CS 在读 / 少数派资深作者 / Arch Linux 精神用户 / 人民艺术家</p>
+    <p>开发者 / 设计师 / 少数派 / 学生</p>
     <p>
       * he is also the creator of
       <a href="https://dowww.spencerwoo.com/">'Dev on Windows with WSL'</a>

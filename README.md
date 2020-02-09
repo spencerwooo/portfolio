@@ -13,9 +13,7 @@ Please use the badge below if you were to deploy this site by yourself:
 </a>
 
 ```html
-<a href="https://github.com/spencerwooo/portfolio">
-  <img src="https://raw.githubusercontent.com/spencerwooo/portfolio/master/public/copyright.png" alt="copyright" width="240px" height="auto" />
-</a>
+<a href="https://github.com/spencerwooo/portfolio"> <img src="https://raw.githubusercontent.com/spencerwooo/portfolio/master/public/copyright.png" alt="copyright" width="240px" height="auto"/></a>
 ```
 
 ## Project setup
