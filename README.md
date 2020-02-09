@@ -8,16 +8,14 @@ Please use the badge below if you were to deploy this site by yourself:
 
 如果你使用了我的模板自己部署，请记得加上下面的 Badge，感谢：
 
-[![](https://flat.badgen.net/badge/Designed%20by/@SpencerWoo/red)](https://github.com/spencerwooo/portfolio)
+<a href="https://github.com/spencerwooo/portfolio">
+  <img src="https://raw.githubusercontent.com/spencerwooo/portfolio/master/public/copyright.png" alt="copyright" width="240px" height="auto" />
+</a>
 
 ```html
 <a href="https://github.com/spencerwooo/portfolio">
-  <img src="https://flat.badgen.net/badge/Designed%20by/@SpencerWoo/red" alt="copyright" />
+  <img src="https://raw.githubusercontent.com/spencerwooo/portfolio/master/public/copyright.png" alt="copyright" width="240px" height="auto" />
 </a>
-```
-
-```markdown
-[![](https://flat.badgen.net/badge/Designed%20by/@SpencerWoo/red)](https://github.com/spencerwooo/portfolio)
 ```
 
 ## Project setup

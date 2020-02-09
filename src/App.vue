@@ -122,8 +122,8 @@ body {
 
 #app {
   font-family: 'Product Sans', 'Avenir Next', -apple-system, BlinkMacSystemFont,
-    Segoe UI, Helvetica, Arial, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei',
-    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    Segoe UI, Helvetica, Arial, 'PingFang SC', 'Noto Sans CJK SC', 'Sarasa Gothic SC',
+    'Microsoft YaHei', sans-serif, Apple Color Emoji, Segoe UI Emoji;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #24292e;
