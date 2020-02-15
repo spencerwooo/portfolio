@@ -58,7 +58,7 @@
           </span>
         </div>
         <div class="social-media-card">
-          <img class="media-icon" src="@/assets/telegram.png" alt="telegram" />
+          <img class="media-icon" src="@/assets/airplane.png" alt="telegram" />
           <span>
             Telegram Channel:
             <a href="https://t.me/realSpencerWoo">@realSpencerWoo</a> | <a href="https://tg.spencerwoo.com">Post archives</a>
