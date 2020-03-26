@@ -420,11 +420,18 @@ h3 a {
 }
 
 .github-project-card {
-  border: 1px solid #d1d5da;
-  background-color: #f3f2ef;
-  border-radius: 3px;
+  /* border: 1px solid #d1d5da; */
+  background-color: #ffffff;
+  border-radius: 10px;
   padding: 0 15px 15px 15px;
-  margin: 10px 0;
+  margin: 40px 0;
+  transition: 0.3s;
+}
+
+.github-project-card:hover {
+  -webkit-box-shadow: 0px 10px 40px -10px #e6e6e6;
+  -moz-box-shadow: 0px 10px 40px -10px #e6e6e6;
+  box-shadow: 0px 10px 40px -10px #e6e6e6;
 }
 
 .github-project-card p {
