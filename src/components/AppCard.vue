@@ -66,6 +66,7 @@ export default {
 <style>
 .app-card {
   border-radius: 10px;
+  border: 1px solid #d1d5da;
   height: 110px;
   margin: 40px auto;
   max-width: 420px;

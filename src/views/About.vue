@@ -421,6 +421,7 @@ h3 a {
 
 .github-project-card {
   border: 1px solid #d1d5da;
+  background-color: #f3f2ef;
   border-radius: 3px;
   padding: 0 15px 15px 15px;
   margin: 10px 0;
