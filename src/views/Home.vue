@@ -61,7 +61,8 @@
           <img class="media-icon" src="@/assets/airplane.png" alt="telegram" />
           <span>
             Telegram Channel:
-            <a href="https://t.me/realSpencerWoo">@realSpencerWoo</a> | <a href="https://tg.spencerwoo.com">Post archives</a>
+            <a href="https://t.me/realSpencerWoo">@realSpencerWoo</a> |
+            <a href="https://tg.spencerwoo.com">Post archives</a>
           </span>
         </div>
       </div>
@@ -71,9 +72,16 @@
       <hr />
 
       <h3>Want to use this template on your website?</h3>
-      <p>想要用我的模板搭建自己的 Portfolio？请记得不要删掉下面的 Badge，谢谢。</p>
+      <p>
+        想要用我的模板搭建自己的 Portfolio？请记得不要删掉下面的 Badge，谢谢。
+      </p>
       <a href="https://github.com/spencerwooo/portfolio">
-        <img src="https://raw.githubusercontent.com/spencerwooo/portfolio/master/public/copyright.png" alt="copyright" width="240px" height="auto" />
+        <img
+          src="https://raw.githubusercontent.com/spencerwooo/portfolio/master/public/copyright.png"
+          alt="copyright"
+          width="240px"
+          height="auto"
+        />
       </a>
     </div>
   </div>
