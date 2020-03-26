@@ -11,6 +11,7 @@
   "dependencies": {
     "axios": "^0.19.0",
     "core-js": "^2.6.5",
+    "nprogress": "^0.2.0",
     "v-tooltip": "^2.0.2",
     "vue": "^2.6.10",
     "vue-navigation-bar": "^2.0.0",

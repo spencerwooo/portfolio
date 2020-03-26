@@ -6,23 +6,29 @@
 
     <hr id="top-hr" />
     <div class="article">
-      <p>大噶好哇。我是 Spencer，一名在北京读书的学生，CS 专业大四在读。与此同时，我还是一个开发者、半个设计师和一个咕咕咕的少数派作者。给大家鞠躬了。🙇</p>
+      <p>
+        大噶好哇。我是 Spencer，一名在北京读书的学生，CS
+        专业大四在读。与此同时，我还是一个开发者、半个设计师和一个咕咕咕的少数派作者。给大家鞠躬了。🙇
+      </p>
 
       <h2>我的项目</h2>
       <p>
         我所做过的项目几乎都开源于
-        <a href="https://github.com/spencerwooo">GitHub</a> 上面，欢迎大家 Star + Fork，笔芯 (✿◡‿◡)
+        <a href="https://github.com/spencerwooo">GitHub</a> 上面，欢迎大家 Star
+        + Fork，笔芯 (✿◡‿◡)
       </p>
 
       <div class="github-project-card">
         <h3>
-          <a href="https://github.com/spencerwooo/dowww">📟 Dev on Windows with WSL</a>
+          <a href="https://github.com/spencerwooo/dowww"
+            >📟 Dev on Windows with WSL</a
+          >
         </h3>
         <p>
-          Dev on Windows with WSL：在 Windows 上用 WSL 优雅开发。目前我关注量与 Star 数量最高的一个项目，主要介绍了如何在 Windows 10 中引进的 Windows Subsystem for Linux 中进行开发与工作。主站：
-          <a
-            href="https://dowww.spencerwoo.com/"
-          >Dev on Windows with WSL</a>
+          Dev on Windows with WSL：在 Windows 上用 WSL 优雅开发。目前我关注量与
+          Star 数量最高的一个项目，主要介绍了如何在 Windows 10 中引进的 Windows
+          Subsystem for Linux 中进行开发与工作。主站：
+          <a href="https://dowww.spencerwoo.com/">Dev on Windows with WSL</a>
         </p>
         <div class="github-repo-stats">
           <a href="https://github.com/spencerwooo/dowww/stargazers">
@@ -64,11 +70,22 @@
 
       <div class="github-project-card">
         <h3>
-          <a href="https://github.com/spencerwooo/BITCS-Coursework">📘 BITCS Coursework 大合集</a>
+          <a href="https://github.com/spencerwooo/Substats"
+            >📈 Substats：快速统计你在各个平台的关注者</a
+          >
         </h3>
-        <p>不完整北京理工大学计算机学院课程项目资料清单。这一份清单大致包含了北京理工大学计算机学院，计算机科学与技术专业，大学本科过程中的全部课程任务和代码项目。清单中包含的项目全部都是我自己参与开发编写，实测符合课程要求。</p>
+        <p>
+          Substats 是一个非常方便易用的请求订阅者、粉丝、关注用户数量 API
+          服务。目前，Substats 平台支持了包括
+          Feedly、GitHub、Twitter、知乎和少数派等等 10
+          余个平台、网站和服务，并使用 Serverless 技术部署到了 Cloudflare 的 CDN
+          上，全球部署，飞速响应。少数派介绍：<a
+            href="https://sspai.com/post/59593"
+            >《做一个好看的数据展示「小标签」，在个人网站实时展示你的粉丝数》</a
+          >
+        </p>
         <div class="github-repo-stats">
-          <a href="https://github.com/spencerwooo/BITCS-Coursework/stargazers">
+          <a href="https://github.com/spencerwooo/Substats/stargazers">
             <svg
               aria-label="stars"
               class="octicon octicon-star"
@@ -85,7 +102,7 @@
             </svg>
             {{ bitcsInfo.stargazers_count }}
           </a>
-          <a href="https://github.com/spencerwooo/BITCS-Coursework/network/members">
+          <a href="https://github.com/spencerwooo/Substats/network/members">
             <svg
               aria-label="forks"
               class="octicon octicon-repo-forked"
@@ -107,13 +124,17 @@
 
       <div class="github-project-card">
         <h3>
-          <a href="https://github.com/SecureCats">🥇 The Fully Anonymous Teaching Evaluation System</a>
+          <a href="https://github.com/SecureCats"
+            >🥇 The Fully Anonymous Teaching Evaluation System</a
+          >
         </h3>
         <p>
-          Secure Cats 团队作品：基于零知识证明和 CL 签名的匿名课程评价系统。这一评教系统参加了「2019 年大学生信息安全竞赛 —— 作品赛」，荣获国家级二等奖。推荐阅读：
-          <a
-            href="https://medium.com/spencerweekly/recap-on-fates-d9d17a6a7827"
-          >什么时候「匿名」才是合理的？| 匿名评教平台复盘</a>
+          Secure Cats 团队作品：基于零知识证明和 CL
+          签名的匿名课程评价系统。这一评教系统参加了「2019 年大学生信息安全竞赛
+          —— 作品赛」，荣获国家级二等奖。推荐阅读：
+          <a href="https://medium.com/spencerweekly/recap-on-fates-d9d17a6a7827"
+            >什么时候「匿名」才是合理的？| 匿名评教平台复盘</a
+          >
         </p>
         <div class="github-repo-stats">
           <a href="https://github.com/SecureCats/Evaluation_BackEnd/stargazers">
@@ -133,7 +154,9 @@
             </svg>
             {{ fatesInfo.stargazers_count }}
           </a>
-          <a href="https://github.com/SecureCats/Evaluation_BackEnd/network/members">
+          <a
+            href="https://github.com/SecureCats/Evaluation_BackEnd/network/members"
+          >
             <svg
               aria-label="forks"
               class="octicon octicon-repo-forked"
@@ -155,16 +178,21 @@
 
       <div class="github-project-card">
         <h3>
-          <a href="https://github.com/spencerwooo/jsbox-sspai-namecard">🎫 少数派作者名片 | 一个 JSBox 小组件</a>
+          <a href="https://github.com/spencerwooo/jsbox-sspai-namecard"
+            >🎫 少数派作者名片 | 一个 JSBox 小组件</a
+          >
         </h3>
         <p>
           适合新版本少数派的作者名片，搭建在 JSBox 上。推荐阅读：
-          <a
-            href="https://sspai.com/post/55562"
-          >新版少数派网站的作者成就墙好好看啊，于是我用它写了一个 JSBox 小插件</a>
+          <a href="https://sspai.com/post/55562"
+            >新版少数派网站的作者成就墙好好看啊，于是我用它写了一个 JSBox
+            小插件</a
+          >
         </p>
         <div class="github-repo-stats">
-          <a href="https://github.com/spencerwooo/jsbox-sspai-namecard/stargazers">
+          <a
+            href="https://github.com/spencerwooo/jsbox-sspai-namecard/stargazers"
+          >
             <svg
               aria-label="stars"
               class="octicon octicon-star"
@@ -181,7 +209,9 @@
             </svg>
             {{ sspaiCardInfo.stargazers_count }}
           </a>
-          <a href="https://github.com/spencerwooo/jsbox-sspai-namecard/network/members">
+          <a
+            href="https://github.com/spencerwooo/jsbox-sspai-namecard/network/members"
+          >
             <svg
               aria-label="forks"
               class="octicon octicon-repo-forked"
@@ -259,7 +289,9 @@
             </li>
             <li>
               介绍：
-              <a href="https://sspai.com/post/54788">性能强劲的「迷你台式机」，Intel NUC 一周使用体验</a>
+              <a href="https://sspai.com/post/54788"
+                >性能强劲的「迷你台式机」，Intel NUC 一周使用体验</a
+              >
             </li>
           </ul>
         </li>
@@ -268,7 +300,9 @@
           <ul>
             <li>
               介绍：
-              <a href="https://sspai.com/post/45742">迁移到 Windows 后，我如何找回熟悉的 macOS 体验</a>
+              <a href="https://sspai.com/post/45742"
+                >迁移到 Windows 后，我如何找回熟悉的 macOS 体验</a
+              >
             </li>
           </ul>
         </li>
@@ -278,7 +312,9 @@
           <ul>
             <li>
               介绍：
-              <a href="https://sspai.com/post/47794">降噪、音质、续航一网打尽：索尼 1000XM3 降噪耳机体验</a>
+              <a href="https://sspai.com/post/47794"
+                >降噪、音质、续航一网打尽：索尼 1000XM3 降噪耳机体验</a
+              >
             </li>
           </ul>
         </li>
@@ -342,7 +378,7 @@ export default {
         this.dowwwInfo = resp.data
       })
     this.axios
-      .get('https://api.github.com/repos/spencerwooo/BITCS-Coursework')
+      .get('https://api.github.com/repos/spencerwooo/Substats')
       .then(resp => {
         this.bitcsInfo = resp.data
       })
@@ -377,6 +413,10 @@ h3 {
   font-size: 18px;
   padding: 18px 0 0 0;
   margin: 0;
+}
+
+h3 a {
+  color: #000000;
 }
 
 .github-project-card {

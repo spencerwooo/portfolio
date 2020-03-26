@@ -2,7 +2,7 @@
   <div id="app">
     <vue-particles
       class="particles"
-      color="#0f4c81"
+      color="#000000"
       :particleOpacity="0.3"
       :particlesNumber="20"
       shapeType="circle"
@@ -40,10 +40,9 @@
           <a href="https://netlify.com/">Netlify</a>
         </p>
         <p>
-          Designed, coded, and deployed from scratch by Spencer Woo. Open source on
-          <a
-            href="https://github.com/spencerwooo/portfolio"
-          >GitHub</a>.
+          Designed, coded, and deployed from scratch by Spencer Woo. Open source
+          on
+          <a href="https://github.com/spencerwooo/portfolio">GitHub</a>.
         </p>
         <p id="busuanzi_container_site_pv">
           Viewed by you guys for a total of
@@ -110,9 +109,9 @@ body {
   padding: 0;
 }
 
-body {
-  border-top: #0f4c81 5px solid;
-}
+/* body {
+  border-top: #eb5757 3px solid;
+} */
 
 .animation-fade-in {
   -webkit-animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
@@ -122,11 +121,13 @@ body {
 
 #app {
   font-family: 'Product Sans', 'Avenir Next', -apple-system, BlinkMacSystemFont,
-    Segoe UI, Helvetica, Arial, 'PingFang SC', 'Noto Sans CJK SC', 'Sarasa Gothic SC',
-    'Microsoft YaHei', sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    Segoe UI, Helvetica, Arial, 'PingFang SC', 'Noto Sans CJK SC',
+    'Sarasa Gothic SC', 'Microsoft YaHei', sans-serif, Apple Color Emoji,
+    Segoe UI Emoji;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #24292e;
+  background-color: #f7f6f3;
   -webkit-animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
     both;
   animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -142,22 +143,23 @@ body {
 #main-navbar {
   padding-left: 15px;
   padding-right: 5px;
+  background-color: #f7f6f3;
 }
 
 #main-navbar .button-github {
-  background: white;
+  background: #f7f6f3;
   color: #24292e;
-  border: 1px solid #0f4c81;
+  border: 1.5px solid #eb5757;
   /* border-radius: 50px; */
   transition: 0.3s;
 }
 
 #main-navbar .button-github:hover {
-  background: #0f4c81;
+  background: #eb5757;
   color: #ffffff;
-  -webkit-box-shadow: 0px 10px 40px -10px #0f4c81;
-  -moz-box-shadow: 0px 10px 40px -10px #0f4c81;
-  box-shadow: 0px 10px 40px -10px #0f4c81;
+  -webkit-box-shadow: 0px 10px 40px -10px #eb5757;
+  -moz-box-shadow: 0px 10px 40px -10px #eb5757;
+  box-shadow: 0px 10px 40px -10px #eb5757;
 }
 
 .vnb__collapse-button img {
@@ -235,7 +237,7 @@ span {
 #top-hr {
   width: 100px;
   margin: 60px auto;
-  border-top: solid 3px #0f4c81;
+  border-top: solid 3px #eb5757;
 }
 
 .social-media-card {
@@ -252,11 +254,11 @@ span {
 
 .container a {
   text-decoration: none;
-  color: #0f4c81;
+  color: #eb5757;
 }
 
 .container a:hover {
-  border-bottom: #0f4c81 solid 1px;
+  border-bottom: #eb5757 solid 1px;
 }
 
 #others {

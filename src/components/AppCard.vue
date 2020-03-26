@@ -46,7 +46,7 @@ export default {
   },
   data() {
     return {
-      backgroundColor: '#f7f7f7',
+      backgroundColor: '#f3f2ef',
       textColor: '#2c2c2c',
       hoverColor: '#e6e6e6'
     }
