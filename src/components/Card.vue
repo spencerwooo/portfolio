@@ -5,7 +5,7 @@
         <div id="msg">{{ msg }}</div>
         <div id="description">{{ description }}</div>
       </div>
-      <img id="icon" :src="require('@/assets/' + this.icon)" />
+      <img id="icon" :src="require('@/assets/images/' + this.icon)" />
     </div>
   </a>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div class="app-card" :style="cardStyles">
-    <img id="icon" :src="require('@/assets/' + this.icon)" />
+    <img id="icon" :src="require('@/assets/images/' + this.icon)" />
     <div id="title">
       <div id="upper-container">
         <div id="msg">{{ msg }}</div>
@@ -13,7 +13,7 @@
         <img
           v-tooltip="link1Tooltip"
           class="app-icon"
-          :src="require('@/assets/' + this.rightIcon1)"
+          :src="require('@/assets/images/' + this.rightIcon1)"
           alt="Right icon 1"
         />
       </a>
@@ -21,7 +21,7 @@
         <img
           v-tooltip="link2Tooltip"
           class="app-icon"
-          :src="require('@/assets/' + this.rightIcon2)"
+          :src="require('@/assets/images/' + this.rightIcon2)"
           alt="Right icon 2"
         />
       </a>

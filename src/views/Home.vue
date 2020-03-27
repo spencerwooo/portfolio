@@ -45,21 +45,29 @@
       <h3>你还可以在这些地方偶尔发现一只我：</h3>
       <div class="social-media">
         <div class="social-media-card">
-          <img class="media-icon" src="@/assets/weibo.png" alt="weibo" />
+          <img class="media-icon" src="@/assets/images/weibo.png" alt="weibo" />
           <span>
             Weibo:
             <a href="https://weibo.com/spencerwoo">@SpencerWoo</a>
           </span>
         </div>
         <div class="social-media-card">
-          <img class="media-icon" src="@/assets/twitter.png" alt="twitter" />
+          <img
+            class="media-icon"
+            src="@/assets/images/twitter.png"
+            alt="twitter"
+          />
           <span>
             Twitter:
             <a href="https://twitter.com/realSpencerWoo">@realSpencerWoo</a>
           </span>
         </div>
         <div class="social-media-card">
-          <img class="media-icon" src="@/assets/airplane.png" alt="telegram" />
+          <img
+            class="media-icon"
+            src="@/assets/images/airplane.png"
+            alt="telegram"
+          />
           <span>
             Telegram Channel:
             <a href="https://t.me/realSpencerWoo">@realSpencerWoo</a>
