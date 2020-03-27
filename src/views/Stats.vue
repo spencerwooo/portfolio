@@ -12,6 +12,7 @@
           :followers="telegram"
           suffix="members"
           icon="telegram.png"
+          :loading="loading"
           link="https://t.me/realSpencerWoo"
         />
         <statCard
@@ -19,6 +20,7 @@
           :followers="rss"
           suffix="subscribers"
           icon="rss.png"
+          :loading="loading"
           link="https://blog.spencerwoo.com/posts/index.xml"
         />
       </div>
@@ -28,6 +30,7 @@
           :followers="sspai"
           suffix="关注"
           icon="sspai.png"
+          :loading="loading"
           link="https://sspai.com/u/spencerwoo/posts"
         />
         <statCard
@@ -35,6 +38,7 @@
           :followers="weibo"
           suffix="粉丝"
           icon="weibo.png"
+          :loading="loading"
           link="https://weibo.com/spencerwoo"
         />
       </div>
@@ -44,6 +48,7 @@
           :followers="zhihu"
           suffix="关注"
           icon="zhihu.png"
+          :loading="loading"
           link="https://www.zhihu.com/people/spencer-woo-64"
         />
         <statCard
@@ -51,6 +56,7 @@
           :followers="twitter"
           suffix="followers"
           icon="twitter.png"
+          :loading="loading"
           link="https://twitter.com/realSpencerWoo"
         />
       </div>
@@ -60,6 +66,7 @@
           :followers="github"
           suffix="followers"
           icon="github.png"
+          :loading="loading"
           link="https://github.com/spencerwooo"
         />
         <statCard
@@ -67,6 +74,7 @@
           :followers="medium"
           suffix="readers"
           icon="medium.png"
+          :loading="loading"
           link="https://medium.com/spencerweekly"
         />
       </div>
@@ -76,6 +84,7 @@
           :followers="steamGames"
           suffix="games bought"
           icon="steam.png"
+          :loading="loading"
           link="https://steamcommunity.com/id/firebearllc/"
         />
         <statCard
@@ -83,6 +92,7 @@
           :followers="steamFriends"
           suffix="friends"
           icon="steam.png"
+          :loading="loading"
           link="https://steamcommunity.com/id/firebearllc/friends/"
         />
       </div>
@@ -114,6 +124,7 @@ export default {
       steamGames: 0,
       steamFriends: 0,
       telegram: 0,
+      loading: true,
     }
   },
   mounted() {
@@ -146,6 +157,7 @@ export default {
       ])
       .then(
         this.axios.spread((...responses) => {
+          this.loading = false
           this.rss = responses[0].data.data.totalSubs
           this.sspai = responses[1].data.data.totalSubs
           this.zhihu = responses[2].data.data.totalSubs
@@ -159,6 +171,7 @@ export default {
         }),
       )
       .catch(errs => {
+        this.loading = false
         // eslint-disable-next-line no-console
         console.error(errs)
       })

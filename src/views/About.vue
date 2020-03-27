@@ -390,6 +390,14 @@ h3 a {
   padding: 0 20px 20px 20px;
   margin: 40px 0;
   transition: 0.3s;
+  background-image: -webkit-repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1) 1px,
+    transparent 0,
+    transparent 100%
+  );
+  background-size: 20px 20px;
 }
 
 .github-project-card:hover {
