@@ -195,15 +195,9 @@ body {
 }
 
 #avatar {
-  max-width: 120px;
-  max-height: 120px;
+  width: 120px;
+  height: 120px;
   border-radius: 60px;
-  margin-top: 40px;
-}
-
-.header-image {
-  max-width: 120px;
-  max-height: 120px;
   margin-top: 40px;
 }
 

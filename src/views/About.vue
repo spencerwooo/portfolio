@@ -7,8 +7,13 @@
     <hr id="top-hr" />
     <div class="article">
       <p>
-        大噶好哇。我是 Spencer，一名在北京读书的学生，CS
-        专业大四在读。与此同时，我还是一个开发者、半个设计师和一个咕咕咕的少数派作者。给大家鞠躬了。🙇
+        大家好，我是 Spencer Woo，正在北京理工大学就读 CS
+        专业，目前我的研究方向是：The Robustness of Adversarial Examples。我将于
+        2020 年秋天前往英国
+        <a href="https://www.gla.ac.uk/">UofG</a> 攻读
+        <a href="https://www.gla.ac.uk/postgraduate/taught/computingsciencemsc/"
+          >MSc in Computing Science</a
+        >。给大家鞠躬了。🙇
       </p>
 
       <h2>我的项目</h2>
@@ -76,10 +81,8 @@
         </h3>
         <p>
           Substats 是一个非常方便易用的请求订阅者、粉丝、关注用户数量 API
-          服务。目前，Substats 平台支持了包括
-          Feedly、GitHub、Twitter、知乎和少数派等等 10
-          余个平台、网站和服务，并使用 Serverless 技术部署到了 Cloudflare 的 CDN
-          上，全球部署，飞速响应。少数派介绍：<a
+          服务，支持了包括 Feedly、GitHub、Twitter、知乎和少数派等 10
+          余个网站和服务，并用 Cloudflare 全球部署，飞速响应。少数派介绍：<a
             href="https://sspai.com/post/59593"
             >《做一个好看的数据展示「小标签」，在个人网站实时展示你的粉丝数》</a
           >
@@ -423,7 +426,7 @@ h3 a {
   /* border: 1px solid #d1d5da; */
   background-color: #ffffff;
   border-radius: 10px;
-  padding: 0 15px 15px 15px;
+  padding: 0 20px 20px 20px;
   margin: 40px 0;
   transition: 0.3s;
 }
