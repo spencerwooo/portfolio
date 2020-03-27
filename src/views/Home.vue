@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img id="avatar" alt="avatar" src="./../assets/icon.jpg" />
+    <img id="avatar" alt="avatar" src="./../assets/images/icon.jpg" />
     <h1>Spencer Woo</h1>
     <h2>👨‍🎨 👨‍💻 🙋‍♂️</h2>
 
