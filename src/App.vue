@@ -38,13 +38,12 @@
       <div id="footer-text">
         <p>
           Built with ♥ and
-          <a href="https://vuejs.org/">Vue.js</a> | CSS animations by
-          <a href="http://animista.net/">Animista</a> | Proudly deployed on
+          <a href="https://vuejs.org/">Vue.js</a> | CSS animations by <a href="http://animista.net/">Animista</a> |
+          Proudly deployed on
           <a href="https://netlify.com/">Netlify</a>
         </p>
         <p>
-          Designed, coded, and deployed from scratch by Spencer Woo. Open source
-          on
+          Designed, coded, and deployed from scratch by Spencer Woo. Open source on
           <a href="https://github.com/spencerwooo/portfolio">GitHub</a>.
         </p>
         <p id="busuanzi_container_site_pv">
@@ -74,17 +73,17 @@ export default {
             type: 'button',
             text: '🌟 ME ON GITHUB',
             path: 'https://github.com/spencerwooo/portfolio',
-            class: 'button-github'
-          }
-        ]
-      }
+            class: 'button-github',
+          },
+        ],
+      },
     }
   },
   methods: {
     getYear() {
       return new Date().getFullYear()
-    }
-  }
+    },
+  },
 }
 </script>
 
@@ -106,27 +105,19 @@ body {
   padding: 0;
 }
 
-/* body {
-  border-top: #eb5757 3px solid;
-} */
-
 .animation-fade-in {
-  -webkit-animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
-    both;
+  -webkit-animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 #app {
-  font-family: 'Rubik', 'Avenir Next', -apple-system, BlinkMacSystemFont,
-    Segoe UI, Helvetica, Arial, 'PingFang SC', 'Noto Sans CJK SC',
-    'Sarasa Gothic SC', 'Microsoft YaHei', sans-serif, Apple Color Emoji,
-    Segoe UI Emoji;
+  font-family: 'Rubik', 'Avenir Next', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, 'PingFang SC',
+    'Noto Sans CJK SC', 'Sarasa Gothic SC', 'Microsoft YaHei', sans-serif, Apple Color Emoji, Segoe UI Emoji;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #24292e;
   background-color: #f7f6f3;
-  -webkit-animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
-    both;
+  -webkit-animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
@@ -222,9 +213,8 @@ h2 {
 h1,
 h2,
 h3 {
-  font-family: 'Miriam Libre', -apple-system, BlinkMacSystemFont, Segoe UI,
-    Helvetica, Arial, 'PingFang SC', 'Noto Sans CJK SC', 'Sarasa Gothic SC',
-    'Microsoft YaHei', sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-family: 'Miriam Libre', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, 'PingFang SC',
+    'Noto Sans CJK SC', 'Sarasa Gothic SC', 'Microsoft YaHei', sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 
 hr {

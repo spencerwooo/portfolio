@@ -4,11 +4,13 @@
       <a :href="link">{{ statTitle }}</a>
     </h3>
     <div id="followers">
-      <content-loader v-if="loading" width="60" height="4">
-        <rect x="0" y="0" rx="1" ry="1" width="18" height="4" />
-        <rect x="20" y="0" rx="1" ry="1" width="40" height="4" />
-      </content-loader>
-      <span v-if="!loading">{{ followers }} {{ suffix }}</span>
+      <transition name="fade">
+        <content-loader v-if="loading" width="60" height="4">
+          <rect x="0" y="0" rx="1" ry="1" width="18" height="4" />
+          <rect x="20" y="0" rx="1" ry="1" width="40" height="4" />
+        </content-loader>
+        <span v-if="!loading">{{ followers }} {{ suffix }}</span>
+      </transition>
     </div>
     <img id="statIcon" :src="require('@/assets/logos/' + this.icon)" />
   </div>
@@ -65,8 +67,14 @@ export default {
   height: 20px;
   margin-top: 12px;
   color: #24292e;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+}
+
+#followers span {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 20px;
+  padding-left: 30px;
 }
 
 #statIcon {
@@ -100,9 +108,12 @@ h3 {
   border: none;
 }
 
-content-loader {
-  position: absolute;
-  left: 0;
-  bottom: 0;
+/* Animations */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 </style>
