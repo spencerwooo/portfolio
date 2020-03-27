@@ -6,8 +6,9 @@
 
     <p>开发者 / 设计师 / 少数派 / 学生</p>
     <p>
-      * he is also the creator of
-      <a href="https://dowww.spencerwoo.com/">'Dev on Windows with WSL'</a>
+      * creator of
+      <a href="https://dowww.spencerwoo.com/">'Dev on Windows with WSL'</a> and
+      <a href="https://api.spencerwoo.com/substats">'Substats'</a>
     </p>
 
     <hr id="top-hr" />
@@ -66,7 +67,7 @@
         </div>
       </div>
 
-      <p>🧨 感谢大哥的关注！给您拜年了！干杯 🍻</p>
+      <!-- <p>🧨 感谢大哥的关注！给您拜年了！干杯 🍻</p> -->
 
       <hr />
 

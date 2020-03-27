@@ -86,13 +86,7 @@ export default {
 </script>
 
 <style>
-@font-face {
-  font-family: 'Product Sans';
-  src: url('assets/ProductSans-Regular.woff2') format('woff2'),
-    url('assets/ProductSans-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&family=Rubik:wght@400;500&display=swap');
 
 .particles {
   position: absolute;
@@ -120,7 +114,7 @@ body {
 }
 
 #app {
-  font-family: 'Product Sans', 'Avenir Next', -apple-system, BlinkMacSystemFont,
+  font-family: 'Rubik', 'Avenir Next', -apple-system, BlinkMacSystemFont,
     Segoe UI, Helvetica, Arial, 'PingFang SC', 'Noto Sans CJK SC',
     'Sarasa Gothic SC', 'Microsoft YaHei', sans-serif, Apple Color Emoji,
     Segoe UI Emoji;
@@ -144,6 +138,11 @@ body {
   padding-left: 15px;
   padding-right: 5px;
   background-color: #f7f6f3;
+}
+
+#main-navbar,
+#main-navbar .link a {
+  font-weight: 400;
 }
 
 #main-navbar .button-github {
@@ -221,6 +220,14 @@ h2 {
   font-weight: 400;
   font-size: 20px;
   padding: 20px 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Miriam Libre', -apple-system, BlinkMacSystemFont, Segoe UI,
+    Helvetica, Arial, 'PingFang SC', 'Noto Sans CJK SC', 'Sarasa Gothic SC',
+    'Microsoft YaHei', sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 
 hr {
