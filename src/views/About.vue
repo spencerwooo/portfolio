@@ -192,14 +192,16 @@ export default {
 
     this.axios
       .all([dowwwAxios, substatsAxios, fatesAxios, sspaiCardAxios, dotfilesAxios])
-      .then((...resp) => {
-        this.loading = false
-        this.dowwwInfo = resp[0].data
-        this.substatsInfo = resp[1].data
-        this.fatesInfo = resp[2].data
-        this.sspaiCardInfo = resp[3].data
-        this.dotfilesInfo = resp[4].data
-      })
+      .then(
+        this.axios.spread((...resp) => {
+          this.loading = false
+          this.dowwwInfo = resp[0].data
+          this.substatsInfo = resp[1].data
+          this.fatesInfo = resp[2].data
+          this.sspaiCardInfo = resp[3].data
+          this.dotfilesInfo = resp[4].data
+        }),
+      )
       .catch(err => {
         this.loading = false
         // eslint-disable-next-line no-console
