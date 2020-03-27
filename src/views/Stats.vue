@@ -210,7 +210,7 @@ export default {
   align-content: stretch;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 760px) {
   .row-container {
     display: flex;
     flex-direction: column;
