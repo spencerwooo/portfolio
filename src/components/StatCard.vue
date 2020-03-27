@@ -16,8 +16,8 @@ export default {
     followers: Number,
     suffix: String,
     icon: String,
-    link: String
-  }
+    link: String,
+  },
 }
 </script>
 
@@ -44,6 +44,8 @@ export default {
 #followers {
   margin-top: 10px;
   color: #24292e;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #statIcon {

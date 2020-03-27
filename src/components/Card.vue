@@ -19,17 +19,17 @@ export default {
     description: String,
     textColor: String,
     icon: String,
-    link: String
+    link: String,
   },
   computed: {
     cardStyles() {
       return {
         '--background-color': this.backgroundColor,
         '--color': this.textColor,
-        '--color-hover': this.backgroundColor
+        '--color-hover': this.backgroundColor,
       }
-    }
-  }
+    },
+  },
 }
 </script>
 
@@ -67,9 +67,8 @@ export default {
   font-weight: 700;
   font-size: 20px;
   text-align: left;
-  font-family: 'Miriam Libre', -apple-system, BlinkMacSystemFont, Segoe UI,
-    Helvetica, Arial, 'PingFang SC', 'Noto Sans CJK SC', 'Sarasa Gothic SC',
-    'Microsoft YaHei', sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-family: 'Miriam Libre', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, 'PingFang SC',
+    'Noto Sans CJK SC', 'Sarasa Gothic SC', 'Microsoft YaHei', sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 
 #title #description {

@@ -42,13 +42,13 @@ export default {
     link2Tooltip: String,
     stars: String,
     rightIcon1: String,
-    rightIcon2: String
+    rightIcon2: String,
   },
   data() {
     return {
       backgroundColor: '#ffffff',
       textColor: '#2c2c2c',
-      hoverColor: '#e6e6e6'
+      hoverColor: '#e6e6e6',
     }
   },
   computed: {
@@ -56,10 +56,10 @@ export default {
       return {
         '--background-color': this.backgroundColor,
         '--color': this.textColor,
-        '--color-hover': this.hoverColor
+        '--color-hover': this.hoverColor,
       }
-    }
-  }
+    },
+  },
 }
 </script>
 
@@ -134,9 +134,8 @@ export default {
 
 #title #msg {
   width: 120px;
-  font-family: 'Miriam Libre', -apple-system, BlinkMacSystemFont, Segoe UI,
-    Helvetica, Arial, 'PingFang SC', 'Noto Sans CJK SC', 'Sarasa Gothic SC',
-    'Microsoft YaHei', sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-family: 'Miriam Libre', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, 'PingFang SC',
+    'Noto Sans CJK SC', 'Sarasa Gothic SC', 'Microsoft YaHei', sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 
 #title #stars {

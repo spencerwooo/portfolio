@@ -89,7 +89,7 @@
     </div>
 
     <div id="substats-footer">
-      Service provided by:
+      * Follower statistics powered by:
       <a href="https://api.spencerwoo.com/substats">Substats</a>.
     </div>
   </div>
@@ -100,7 +100,7 @@ import statCard from '@/components/StatCard.vue'
 
 export default {
   components: {
-    statCard
+    statCard,
   },
   data() {
     return {
@@ -113,81 +113,56 @@ export default {
       github: 0,
       steamGames: 0,
       steamFriends: 0,
-      telegram: 0
+      telegram: 0,
     }
   },
   mounted() {
+    const apiUrl = 'https://api.spencerwoo.com/substats'
+    const rssUrl = 'https://blog.spencerwoo.com/posts/index.xml'
+
+    const rssAxios = this.axios.get(`${apiUrl}/?source=feedly|inoreader&queryKey=${rssUrl}`)
+    const sspaiAxios = this.axios.get(`${apiUrl}/?source=sspai&queryKey=spencerwoo`)
+    const zhihuAxios = this.axios.get(`${apiUrl}/?source=zhihu&queryKey=spencer-woo-64`)
+    const weiboAxios = this.axios.get(`${apiUrl}/?source=weibo&queryKey=6265807914`)
+    const twitterAxios = this.axios.get(`${apiUrl}/?source=twitter&queryKey=realSpencerWoo`)
+    const mediumAxios = this.axios.get(`${apiUrl}/?source=medium&queryKey=@SpencerWooo`)
+    const githubAxios = this.axios.get(`${apiUrl}/?source=github&queryKey=spencerwooo`)
+    const steamGamesAxios = this.axios.get(`${apiUrl}/?source=steamGames&queryKey=76561198336249957`)
+    const steamFriendsAxios = this.axios.get(`${apiUrl}/?source=steamFriends&queryKey=76561198336249957`)
+    const telegramAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=realSpencerWoo`)
+
     this.axios
-      .get(
-        'https://api.spencerwoo.com/substats/?source=feedly|inoreader&queryKey=https://blog.spencerwoo.com/posts/index.xml'
+      .all([
+        rssAxios,
+        sspaiAxios,
+        zhihuAxios,
+        weiboAxios,
+        twitterAxios,
+        mediumAxios,
+        githubAxios,
+        steamGamesAxios,
+        steamFriendsAxios,
+        telegramAxios,
+      ])
+      .then(
+        this.axios.spread((...responses) => {
+          this.rss = responses[0].data.data.totalSubs
+          this.sspai = responses[1].data.data.totalSubs
+          this.zhihu = responses[2].data.data.totalSubs
+          this.weibo = responses[3].data.data.totalSubs
+          this.twitter = responses[4].data.data.totalSubs
+          this.medium = responses[5].data.data.totalSubs
+          this.github = responses[6].data.data.totalSubs
+          this.steamGames = responses[7].data.data.totalSubs
+          this.steamFriends = responses[8].data.data.totalSubs
+          this.telegram = responses[9].data.data.totalSubs
+        }),
       )
-      .then(resp => {
-        this.rss = resp.data.data.totalSubs
+      .catch(errs => {
+        // eslint-disable-next-line no-console
+        console.error(errs)
       })
-    this.axios
-      .get(
-        'https://api.spencerwoo.com/substats/?source=sspai&queryKey=spencerwoo'
-      )
-      .then(resp => {
-        this.sspai = resp.data.data.totalSubs
-      })
-    this.axios
-      .get(
-        'https://api.spencerwoo.com/substats/?source=zhihu&queryKey=spencer-woo-64'
-      )
-      .then(resp => {
-        this.zhihu = resp.data.data.totalSubs
-      })
-    this.axios
-      .get(
-        'https://api.spencerwoo.com/substats/?source=weibo&queryKey=6265807914'
-      )
-      .then(resp => {
-        this.weibo = resp.data.data.totalSubs
-      })
-    this.axios
-      .get(
-        'https://api.spencerwoo.com/substats/?source=twitter&queryKey=realSpencerWoo'
-      )
-      .then(resp => {
-        this.twitter = resp.data.data.totalSubs
-      })
-    this.axios
-      .get(
-        'https://api.spencerwoo.com/substats/?source=medium&queryKey=@SpencerWooo'
-      )
-      .then(resp => {
-        this.medium = resp.data.data.totalSubs
-      })
-    this.axios
-      .get(
-        'https://api.spencerwoo.com/substats/?source=github&queryKey=spencerwooo'
-      )
-      .then(resp => {
-        this.github = resp.data.data.totalSubs
-      })
-    this.axios
-      .get(
-        'https://api.spencerwoo.com/substats/?source=steamGames&queryKey=76561198336249957'
-      )
-      .then(resp => {
-        this.steamGames = resp.data.data.totalSubs
-      })
-    this.axios
-      .get(
-        'https://api.spencerwoo.com/substats/?source=steamFriends&queryKey=76561198336249957'
-      )
-      .then(resp => {
-        this.steamFriends = resp.data.data.totalSubs
-      })
-    this.axios
-      .get(
-        'https://api.spencerwoo.com/substats/?source=telegram&queryKey=realSpencerWoo'
-      )
-      .then(resp => {
-        this.telegram = resp.data.data.totalSubs
-      })
-  }
+  },
 }
 </script>
 

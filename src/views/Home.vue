@@ -52,22 +52,14 @@
           </span>
         </div>
         <div class="social-media-card">
-          <img
-            class="media-icon"
-            src="@/assets/images/twitter.png"
-            alt="twitter"
-          />
+          <img class="media-icon" src="@/assets/images/twitter.png" alt="twitter" />
           <span>
             Twitter:
             <a href="https://twitter.com/realSpencerWoo">@realSpencerWoo</a>
           </span>
         </div>
         <div class="social-media-card">
-          <img
-            class="media-icon"
-            src="@/assets/images/airplane.png"
-            alt="telegram"
-          />
+          <img class="media-icon" src="@/assets/images/airplane.png" alt="telegram" />
           <span>
             Telegram Channel:
             <a href="https://t.me/realSpencerWoo">@realSpencerWoo</a>
@@ -100,7 +92,7 @@ import Card from '@/components/Card.vue'
 
 export default {
   components: {
-    Card
-  }
+    Card,
+  },
 }
 </script>
