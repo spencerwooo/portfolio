@@ -116,7 +116,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #24292e;
-  background-color: #f7f6f3;
+  background-color: #f7fafc;
   -webkit-animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
@@ -131,7 +131,7 @@ body {
 #main-navbar {
   padding-left: 15px;
   padding-right: 5px;
-  background-color: #f7f6f3;
+  background-color: #f7fafc;
 }
 
 #main-navbar,
@@ -140,19 +140,19 @@ body {
 }
 
 #main-navbar .button-github {
-  background: #f7f6f3;
+  background: #f7fafc;
   color: #24292e;
-  border: 1.5px solid #eb5757;
+  border: 1.5px solid #265ca2;
   /* border-radius: 50px; */
   transition: 0.3s;
 }
 
 #main-navbar .button-github:hover {
-  background: #eb5757;
+  background: #265ca2;
   color: #ffffff;
-  -webkit-box-shadow: 0px 10px 40px -10px #eb5757;
-  -moz-box-shadow: 0px 10px 40px -10px #eb5757;
-  box-shadow: 0px 10px 40px -10px #eb5757;
+  -webkit-box-shadow: 0px 10px 40px -10px #265ca2;
+  -moz-box-shadow: 0px 10px 40px -10px #265ca2;
+  box-shadow: 0px 10px 40px -10px #265ca2;
 }
 
 .vnb__collapse-button img {
@@ -231,7 +231,7 @@ span {
 #top-hr {
   width: 100px;
   margin: 60px auto;
-  border-top: solid 3px #eb5757;
+  border-top: solid 3px #265ca2;
 }
 
 .social-media-card {
@@ -248,11 +248,11 @@ span {
 
 .container a {
   text-decoration: none;
-  color: #eb5757;
+  color: #265ca2;
 }
 
 .container a:hover {
-  border-bottom: #eb5757 solid 1px;
+  border-bottom: #265ca2 solid 1px;
 }
 
 #others {
