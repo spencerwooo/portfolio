@@ -9,7 +9,7 @@
       <p>
         大家好，我是 Spencer Woo，正在北京理工大学就读 CS 专业，目前我的研究方向是：The Robustness of Adversarial
         Examples。我将于 2020 年秋天前往英国
-        <a href="https://www.gla.ac.uk/">UofG</a> 攻读
+        <a href="https://www.gla.ac.uk/">UoG</a> 攻读
         <a href="https://www.gla.ac.uk/postgraduate/taught/computingsciencemsc/">MSc in Computing Science</a
         >。给大家鞠躬了。🙇
       </p>
@@ -104,23 +104,13 @@
           </ul>
         </li>
         <li>
-          ThinkPad X1 Yoga (1st Gen)：
-          <ul>
-            <li>
-              介绍：
-              <a href="https://sspai.com/post/45742">迁移到 Windows 后，我如何找回熟悉的 macOS 体验</a>
-            </li>
-          </ul>
+          ThinkPad X1 Carbon 7th Gen：<a href="https://sspai.com/post/45742"
+            >迁移到 Windows 后，我如何找回熟悉的 macOS 体验</a
+          >
         </li>
-        <li>12-inch MacBook：观赏性质 > 实用价值</li>
+        <li>12" MacBook (Early 2016)：观赏性质 > 实用价值</li>
         <li>
-          Sony 1000XM3：
-          <ul>
-            <li>
-              介绍：
-              <a href="https://sspai.com/post/47794">降噪、音质、续航一网打尽：索尼 1000XM3 降噪耳机体验</a>
-            </li>
-          </ul>
+          Sony 1000XM3： <a href="https://sspai.com/post/47794">降噪、音质、续航一网打尽：索尼 1000XM3 降噪耳机体验</a>
         </li>
         <li>iPhone XR</li>
         <li>iPad Air 3rd Gen</li>
@@ -138,10 +128,6 @@
         <li>
           📫 邮箱：
           <a href="mailto:spencerwoo98@gmail.com">spencerwoo98#gmail.com</a>
-        </li>
-        <li>
-          ✈ Telegram：
-          <a href="https://t.me/SpencerWoo">t.me/SpencerWoo</a>
         </li>
         <li>📍 Beijing Institute of Technology, Beijing, China</li>
       </ul>

@@ -7,8 +7,9 @@
     <p>开发者 / 设计师 / 少数派 / 学生</p>
     <p>
       * creator of
-      <a href="https://dowww.spencerwoo.com/">'Dev on Windows with WSL'</a> and
-      <a href="https://api.spencerwoo.com/substats">'Substats'</a>
+      <a href="https://dowww.spencerwoo.com/">Dev on Windows with WSL</a>,
+      <a href="https://api.spencerwoo.com/substats">Substats</a>, and
+      <a href="https://bithesis.spencerwoo.com">BIThesis</a>
     </p>
 
     <hr id="top-hr" />
