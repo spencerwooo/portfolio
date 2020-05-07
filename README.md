@@ -22,7 +22,7 @@ Please add proper acknowledgements if you were to deploy this for your own portf
 [![copyright](https://img.shields.io/badge/Designed%20by-github.com%2Fspencerwooo-black?logo=github&style=for-the-badge&labelColor=24292e)](https://github.com/spencerwooo/portfolio)
 
 ```html
-<a href="https://github.com/spencerwooo/portfolio"> <img src="https://img.shields.io/badge/Designed%20by-github.com%2Fspencerwooo-black?logo=github&style=for-the-badge&labelColor=24292e" alt="copyright" width="160px" height="auto"/></a>
+<a href="https://github.com/spencerwooo/portfolio"><img src="https://img.shields.io/badge/Designed%20by-github.com%2Fspencerwooo-black?logo=github&style=for-the-badge&labelColor=24292e" alt="copyright"/></a>
 ```
 
 ## Project setup
