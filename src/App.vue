@@ -115,8 +115,8 @@ body {
     'Noto Sans CJK SC', 'Sarasa Gothic SC', 'Microsoft YaHei', sans-serif, Apple Color Emoji, Segoe UI Emoji;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #24292e;
-  background-color: #f7fafc;
+  color: #000;
+  background-color: #fafafa;
   -webkit-animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
@@ -131,7 +131,7 @@ body {
 #main-navbar {
   padding-left: 15px;
   padding-right: 5px;
-  background-color: #f7fafc;
+  background-color: #fafafa;
 }
 
 #main-navbar,
@@ -140,19 +140,19 @@ body {
 }
 
 #main-navbar .button-github {
-  background: #f7fafc;
-  color: #24292e;
-  border: 1.5px solid #265ca2;
+  background: #fafafa;
+  color: #000;
+  border: 1.5px solid #0070F3;
   /* border-radius: 50px; */
   transition: 0.3s;
 }
 
 #main-navbar .button-github:hover {
-  background: #265ca2;
+  background: #0070F3;
   color: #ffffff;
-  -webkit-box-shadow: 0px 10px 40px -10px #265ca2;
-  -moz-box-shadow: 0px 10px 40px -10px #265ca2;
-  box-shadow: 0px 10px 40px -10px #265ca2;
+  -webkit-box-shadow: 0px 10px 40px -10px #0070F3;
+  -moz-box-shadow: 0px 10px 40px -10px #0070F3;
+  box-shadow: 0px 10px 40px -10px #0070F3;
 }
 
 .vnb__collapse-button img {
@@ -220,7 +220,7 @@ h3 {
 hr {
   width: 100px;
   margin: 60px 0 0 0;
-  border-top: solid 3px #24292e;
+  border-top: solid 3px #000;
 }
 
 p,
@@ -231,7 +231,7 @@ span {
 #top-hr {
   width: 100px;
   margin: 60px auto;
-  border-top: solid 3px #265ca2;
+  border-top: solid 3px #0070F3;
 }
 
 .social-media-card {
@@ -248,11 +248,11 @@ span {
 
 .container a {
   text-decoration: none;
-  color: #265ca2;
+  color: #0070F3;
 }
 
 .container a:hover {
-  border-bottom: #265ca2 solid 1px;
+  border-bottom: #0070F3 solid 1px;
 }
 
 #others {
@@ -261,7 +261,7 @@ span {
 
 #footer {
   padding: 20px 20px;
-  background-color: #24292e;
+  background-color: #000;
 }
 
 #footer-text {

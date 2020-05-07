@@ -119,7 +119,7 @@ h3 a:hover {
 }
 
 .github-repo-stats a {
-  color: #24292e;
+  color: #000;
   padding-right: 20px;
   font-size: 14px;
 }

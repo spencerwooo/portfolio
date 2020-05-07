@@ -66,7 +66,7 @@ export default {
 #followers {
   height: 20px;
   margin-top: 12px;
-  color: #24292e;
+  color: #000;
 }
 
 #followers span {
@@ -96,12 +96,12 @@ h3 {
   font-weight: 700;
   font-size: 20px;
   text-align: left;
-  color: #24292e;
+  color: #000;
 }
 
 .statCard a {
   text-decoration: none;
-  color: #24292e;
+  color: #000;
 }
 
 .statCard a:hover {
