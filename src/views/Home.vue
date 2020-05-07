@@ -74,14 +74,12 @@
 
       <h3>Want to use this template on your website?</h3>
       <p>
-        想要用我的模板搭建自己的 Portfolio？请记得不要删掉下面的 Badge，谢谢。
+        想要用我的模板搭建自己的 Portfolio？还请加上设计来源，比如：
       </p>
-      <a href="https://github.com/spencerwooo/portfolio">
+      <a id="copyright" href="https://github.com/spencerwooo/portfolio">
         <img
-          src="https://raw.githubusercontent.com/spencerwooo/portfolio/master/public/copyright.png"
+          src="https://img.shields.io/badge/Designed%20by-github.com%2Fspencerwooo-black?logo=github&style=for-the-badge&labelColor=24292e"
           alt="copyright"
-          width="240px"
-          height="auto"
         />
       </a>
     </div>
@@ -97,3 +95,9 @@ export default {
   },
 }
 </script>
+
+<style lang="css" scoped>
+#copyright:hover {
+  border: none;
+}
+</style>
