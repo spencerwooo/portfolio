@@ -1,6 +1,10 @@
-# 💎 Portfolio
+[![Deploy to Now](https://badgen.net/badge/%E2%96%B2%20Deploy%20to%20Now/$%20now%20spencerwooo%2Fportfolio/black)](https://vercel.com/spencerwoo/home)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b78fe007-3630-48ab-9476-d4abf49459f6/deploy-status)](https://app.netlify.com/sites/spencer/deploys)
+# Portfolio
+
+> 🍌 My personal home page, built and designed from scratch.
+
+<!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/b78fe007-3630-48ab-9476-d4abf49459f6/deploy-status)](https://app.netlify.com/sites/spencer/deploys) -->
 
 ## Copyright
 
@@ -46,13 +50,9 @@ yarn run test
 yarn run lint
 ```
 
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
 ---
 
-**💎 Portfolio** ©Spencer Woo. Released under the [MIT License](./LICENSE).
+**🍌 Portfolio** ©Spencer Woo. Released under the [MIT License](./LICENSE).
 
 Authored and maintained by Spencer Woo.
 
