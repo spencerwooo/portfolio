@@ -1,4 +1,5 @@
-[![Deploy to Now](https://badgen.net/badge/%E2%96%B2%20Deploy%20to%20Now/$%20now%20spencerwooo%2Fportfolio/black)](https://vercel.com/spencerwoo/home)
+[![Hosted on Vercel](https://badgen.net/badge/Vercel/$%20now%20spencerwooo%2Fportfolio/001122?icon=zeit&labelColor=black)](https://vercel.com/spencerwoo/home)
+[![Live at https://spencerwoo.com](https://badgen.net/https/now.swoo.workers.dev/dpl_FmTc9SGnGmSSJSvRqNFwNVw7i6Bb?labelColor=black)](https://spencerwoo.com)
 
 # Portfolio
 
@@ -6,18 +7,22 @@
 
 <!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/b78fe007-3630-48ab-9476-d4abf49459f6/deploy-status)](https://app.netlify.com/sites/spencer/deploys) -->
 
-## Copyright
+## One-click deployment
 
-Please use the badge below if you were to deploy this site by yourself:
+Deploy your own instance of my portfolio to Vercel:
 
-如果你使用了我的模板自己部署，请记得加上下面的 Badge，感谢：
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=spencerwooo%2Fportfolio)
 
-<a href="https://github.com/spencerwooo/portfolio">
-  <img src="https://raw.githubusercontent.com/spencerwooo/portfolio/master/public/copyright.png" alt="copyright" width="240px" height="auto" />
-</a>
+## Copyrights
+
+Please add proper acknowledgements if you were to deploy this for your own portfolio.
+
+如果你希望用我的模板部署自己的 Portfolio，还请加上设计来源，比如：
+
+[![copyright](https://img.shields.io/badge/Designed%20by-github.com%2Fspencerwooo-black?logo=github&style=for-the-badge&labelColor=24292e)](https://github.com/spencerwooo/portfolio)
 
 ```html
-<a href="https://github.com/spencerwooo/portfolio"> <img src="https://raw.githubusercontent.com/spencerwooo/portfolio/master/public/copyright.png" alt="copyright" width="240px" height="auto"/></a>
+<a href="https://github.com/spencerwooo/portfolio"> <img src="https://img.shields.io/badge/Designed%20by-github.com%2Fspencerwooo-black?logo=github&style=for-the-badge&labelColor=24292e" alt="copyright" width="160px" height="auto"/></a>
 ```
 
 ## Project setup
