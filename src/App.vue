@@ -88,7 +88,8 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&family=Rubik:wght@400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&family=Rubik:wght@400;500&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Miriam+Libre:400,700|Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .particles {
   position: absolute;
@@ -111,8 +112,9 @@ body {
 }
 
 #app {
-  font-family: 'Rubik', 'Avenir Next', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, 'PingFang SC',
-    'Noto Sans CJK SC', 'Sarasa Gothic SC', 'Microsoft YaHei', sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
+    Arial, pingfang sc, source han sans sc, noto sans cjk sc, sarasa gothic sc,
+    microsoft yahei, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #000;

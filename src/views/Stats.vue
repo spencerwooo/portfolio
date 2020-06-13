@@ -16,6 +16,16 @@
           link="https://t.me/realSpencerWoo"
         />
         <statCard
+          statTitle="即刻"
+          :followers="jike"
+          suffix="被关注"
+          icon="jike.png"
+          :loading="loading"
+          link="https://m.okjike.com/users/4DDA0425-FB41-4188-89E4-952CA15E3C5E"
+        />
+      </div>
+      <div class="row-container">
+        <statCard
           statTitle="RSS 订阅"
           :followers="rss"
           suffix="subscribers"
@@ -23,8 +33,6 @@
           :loading="loading"
           link="https://blog.spencerwoo.com/posts/index.xml"
         />
-      </div>
-      <div class="row-container">
         <statCard
           statTitle="少数派"
           :followers="sspai"
@@ -33,6 +41,8 @@
           :loading="loading"
           link="https://sspai.com/u/spencerwoo/posts"
         />
+      </div>
+      <div class="row-container">
         <statCard
           statTitle="微博"
           :followers="weibo"
@@ -41,8 +51,6 @@
           :loading="loading"
           link="https://weibo.com/spencerwoo"
         />
-      </div>
-      <div class="row-container">
         <statCard
           statTitle="知乎"
           :followers="zhihu"
@@ -51,6 +59,8 @@
           :loading="loading"
           link="https://www.zhihu.com/people/spencer-woo-64"
         />
+      </div>
+      <div class="row-container">
         <statCard
           statTitle="Twitter"
           :followers="twitter"
@@ -59,8 +69,6 @@
           :loading="loading"
           link="https://twitter.com/realSpencerWoo"
         />
-      </div>
-      <div class="row-container">
         <statCard
           statTitle="GitHub"
           :followers="github"
@@ -69,6 +77,8 @@
           :loading="loading"
           link="https://github.com/spencerwooo"
         />
+      </div>
+      <div class="row-container">
         <statCard
           statTitle="Medium"
           :followers="medium"
@@ -77,8 +87,6 @@
           :loading="loading"
           link="https://medium.com/spencerweekly"
         />
-      </div>
-      <div class="row-container">
         <statCard
           statTitle="Steam Games"
           :followers="steamGames"
@@ -86,14 +94,6 @@
           icon="steam.png"
           :loading="loading"
           link="https://steamcommunity.com/id/firebearllc/"
-        />
-        <statCard
-          statTitle="Steam Friends"
-          :followers="steamFriends"
-          suffix="friends"
-          icon="steam.png"
-          :loading="loading"
-          link="https://steamcommunity.com/id/firebearllc/friends/"
         />
       </div>
     </div>
@@ -115,6 +115,7 @@ export default {
   data() {
     return {
       rss: 0,
+      jike: 0,
       sspai: 0,
       zhihu: 0,
       weibo: 0,
@@ -122,7 +123,7 @@ export default {
       medium: 0,
       github: 0,
       steamGames: 0,
-      steamFriends: 0,
+      // steamFriends: 0,
       telegram: 0,
       loading: true,
     }
@@ -133,26 +134,28 @@ export default {
 
     const rssAxios = this.axios.get(`${apiUrl}/?source=feedly|inoreader&queryKey=${rssUrl}`)
     const sspaiAxios = this.axios.get(`${apiUrl}/?source=sspai&queryKey=spencerwoo`)
+    const jikeAxios = this.axios.get(`${apiUrl}/?source=jikeFollower&queryKey=4DDA0425-FB41-4188-89E4-952CA15E3C5E`)
     const zhihuAxios = this.axios.get(`${apiUrl}/?source=zhihu&queryKey=spencer-woo-64`)
     const weiboAxios = this.axios.get(`${apiUrl}/?source=weibo&queryKey=6265807914`)
     const twitterAxios = this.axios.get(`${apiUrl}/?source=twitter&queryKey=realSpencerWoo`)
     const mediumAxios = this.axios.get(`${apiUrl}/?source=medium&queryKey=@SpencerWooo`)
     const githubAxios = this.axios.get(`${apiUrl}/?source=github&queryKey=spencerwooo`)
     const steamGamesAxios = this.axios.get(`${apiUrl}/?source=steamGames&queryKey=76561198336249957`)
-    const steamFriendsAxios = this.axios.get(`${apiUrl}/?source=steamFriends&queryKey=76561198336249957`)
+    // const steamFriendsAxios = this.axios.get(`${apiUrl}/?source=steamFriends&queryKey=76561198336249957`)
     const telegramAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=realSpencerWoo`)
 
     this.axios
       .all([
         rssAxios,
         sspaiAxios,
+        jikeAxios,
         zhihuAxios,
         weiboAxios,
         twitterAxios,
         mediumAxios,
         githubAxios,
         steamGamesAxios,
-        steamFriendsAxios,
+        // steamFriendsAxios,
         telegramAxios,
       ])
       .then(
@@ -160,13 +163,14 @@ export default {
           this.loading = false
           this.rss = responses[0].data.data.totalSubs
           this.sspai = responses[1].data.data.totalSubs
+          this.jike = responses[2].data.data.totalSubs
           this.zhihu = responses[2].data.data.totalSubs
           this.weibo = responses[3].data.data.totalSubs
           this.twitter = responses[4].data.data.totalSubs
           this.medium = responses[5].data.data.totalSubs
           this.github = responses[6].data.data.totalSubs
           this.steamGames = responses[7].data.data.totalSubs
-          this.steamFriends = responses[8].data.data.totalSubs
+          // this.steamFriends = responses[8].data.data.totalSubs
           this.telegram = responses[9].data.data.totalSubs
         }),
       )

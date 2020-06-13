@@ -8,8 +8,8 @@
     <div class="article">
       <p>
         大家好，我是 Spencer Woo，正在北京理工大学就读 CS 专业，目前我的研究方向是：The Robustness of Adversarial
-        Examples。我将于 2020 年秋天前往英国
-        <a href="https://www.gla.ac.uk/">UoG</a> 攻读
+        Examples。我将于 2021 年初（淦，被迫 gap (⊙x⊙;)）前往英国
+        <a href="https://www.gla.ac.uk/">UofG</a> 攻读
         <a href="https://www.gla.ac.uk/postgraduate/taught/computingsciencemsc/">MSc in Computing Science</a
         >。给大家鞠躬了。🙇
       </p>
@@ -41,7 +41,7 @@
       >
         <p>
           Substats 是一个非常方便易用的请求订阅者、粉丝、关注用户数量 API 服务，支持了包括
-          Feedly、GitHub、Twitter、知乎和少数派等 10 余个网站和服务，并用 Cloudflare 全球部署，飞速响应。少数派介绍：<a
+          Feedly、GitHub、Twitter、即刻和少数派等 10 余个网站和服务，并用 Cloudflare 全球部署，飞速响应。少数派介绍：<a
             href="https://sspai.com/post/59593"
             >《做一个好看的数据展示「小标签」，在个人网站实时展示你的粉丝数》</a
           >
