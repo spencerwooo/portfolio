@@ -171,7 +171,7 @@ export default {
           this.github = responses[6].data.data.totalSubs
           this.steamGames = responses[7].data.data.totalSubs
           // this.steamFriends = responses[8].data.data.totalSubs
-          this.telegram = responses[9].data.data.totalSubs
+          this.telegram = responses[8].data.data.totalSubs
         }),
       )
       .catch(errs => {
