@@ -123,7 +123,6 @@ export default {
       medium: 0,
       github: 0,
       steamGames: 0,
-      // steamFriends: 0,
       telegram: 0,
       loading: true,
     }
@@ -141,7 +140,6 @@ export default {
     const mediumAxios = this.axios.get(`${apiUrl}/?source=medium&queryKey=@SpencerWooo`)
     const githubAxios = this.axios.get(`${apiUrl}/?source=github&queryKey=spencerwooo`)
     const steamGamesAxios = this.axios.get(`${apiUrl}/?source=steamGames&queryKey=76561198336249957`)
-    // const steamFriendsAxios = this.axios.get(`${apiUrl}/?source=steamFriends&queryKey=76561198336249957`)
     const telegramAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=realSpencerWoo`)
 
     this.axios
@@ -164,14 +162,13 @@ export default {
           this.rss = responses[0].data.data.totalSubs
           this.sspai = responses[1].data.data.totalSubs
           this.jike = responses[2].data.data.totalSubs
-          this.zhihu = responses[2].data.data.totalSubs
-          this.weibo = responses[3].data.data.totalSubs
-          this.twitter = responses[4].data.data.totalSubs
-          this.medium = responses[5].data.data.totalSubs
-          this.github = responses[6].data.data.totalSubs
-          this.steamGames = responses[7].data.data.totalSubs
-          // this.steamFriends = responses[8].data.data.totalSubs
-          this.telegram = responses[8].data.data.totalSubs
+          this.zhihu = responses[3].data.data.totalSubs
+          this.weibo = responses[4].data.data.totalSubs
+          this.twitter = responses[5].data.data.totalSubs
+          this.medium = responses[6].data.data.totalSubs
+          this.github = responses[7].data.data.totalSubs
+          this.steamGames = responses[8].data.data.totalSubs
+          this.telegram = responses[9].data.data.totalSubs
         }),
       )
       .catch(errs => {
