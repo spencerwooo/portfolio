@@ -48,7 +48,7 @@ export default {
   );
   background-size: 20px 20px;
   border-radius: 10px;
-  padding: 20px 30px;
+  padding: 20px 20px;
   min-width: 220px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -73,7 +73,7 @@ export default {
   left: 0;
   bottom: 0;
   padding-bottom: 20px;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 
 #statIcon {

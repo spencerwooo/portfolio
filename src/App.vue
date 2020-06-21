@@ -94,7 +94,7 @@ body {
 }
 
 #main-navbar {
-  padding-right: 15px;
+  padding-right: 5px;
   background-color: #fafafa;
 }
 
