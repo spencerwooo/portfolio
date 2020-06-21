@@ -1,103 +1,130 @@
 <template>
   <div class="container">
-    <img id="avatar" alt="avatar" src="./../assets/images/icon.jpg" />
-    <h1>Spencer Woo</h1>
-    <h2>👨‍🎨 👨‍💻 🙋‍♂️</h2>
-
-    <p>开发者 / 设计师 / 少数派 / 学生</p>
-    <p>
-      * creator of
-      <a href="https://dowww.spencerwoo.com/">Dev on Windows with WSL</a>,
-      <a href="https://api.spencerwoo.com/substats">Substats</a>, and
-      <a href="https://bithesis.spencerwoo.com">BIThesis</a>
-    </p>
-
-    <hr id="top-hr" />
-    <h3>🎉 Where to find me:</h3>
-    <div id="card-container">
-      <Card
-        msg="少数派 sspai"
-        backgroundColor="#ca2c2a"
-        description="✏️ 主要输出战场！"
-        textColor="#FFFFFF"
-        icon="sspai.png"
-        link="https://sspai.com/u/spencerwoo/posts"
-      />
-      <Card
-        msg="博客 Blog"
-        backgroundColor="#0083c0"
-        description="📒 从头开始（咕咕咕）"
-        textColor="#FFFFFF"
-        icon="netlify.png"
-        link="https://blog.spencerwoo.com"
-      />
-      <Card
-        msg="GitHub"
-        backgroundColor="#24292E"
-        description="📦 我做过的项目都在这里"
-        textColor="#FFFFFF"
-        icon="github.png"
-        link="https://github.com/spencerwooo"
-      />
+    <div id="name-container">
+      <img id="avatar" src="./../assets/images/av.png" alt="avatar" />
+      <h1>Spencer Woo</h1>
     </div>
-
-    <div id="others">
-      <hr />
-      <h3>你还可以在这些地方偶尔发现一只我：</h3>
-      <div class="social-media">
-        <div class="social-media-card">
-          <img class="media-icon" src="@/assets/images/weibo.png" alt="weibo" />
-          <span>
-            Weibo:
-            <a href="https://weibo.com/spencerwoo">@SpencerWoo</a>
-          </span>
-        </div>
-        <div class="social-media-card">
-          <img class="media-icon" src="@/assets/images/twitter.png" alt="twitter" />
-          <span>
-            Twitter:
-            <a href="https://twitter.com/realSpencerWoo">@realSpencerWoo</a>
-          </span>
-        </div>
-        <div class="social-media-card">
-          <img class="media-icon" src="@/assets/images/airplane.png" alt="telegram" />
-          <span>
-            Telegram Channel:
-            <a href="https://t.me/realSpencerWoo">@realSpencerWoo</a>
-          </span>
-        </div>
-      </div>
-
-      <!-- <p>🧨 感谢大哥的关注！给您拜年了！干杯 🍻</p> -->
-
-      <hr />
-
-      <h3>Want to use this template on your website?</h3>
+    <p class="title-desc-container">
+      <a id="github" href="https://github.com/spencerwooo"
+        ><img class="title-font" src="./../assets/images/github.svg" />Developer</a
+      >
+      <span>/</span>
+      <a id="sspai" href="https://sspai.com/u/spencerwoo/posts"
+        ><img class="title-font" src="./../assets/images/sspai.svg" />Writer</a
+      >
+      <span>/</span>
+      <a id="blog" href="https://blog.spencerwoo.com"
+        ><img class="title-font" src="./../assets/images/zeit.svg" />Blogger</a
+      >
+    </p>
+    <div class="article">
+      <h2>Name</h2>
       <p>
-        想要用我的模板搭建自己的 Portfolio？还请加上设计来源，比如：
+        I go by the name of <i>Spencer Woo</i>. Various other IDs across the net:
+        <a href="https://twitter.com/realSpencerWoo">@realSpencerWoo</a> /
+        <a href="https://weibo.com/spencerwoo">@SpencerWoo</a> /
+        <a href="https://github.com/spencerwooo">@spencerwooo</a>.
       </p>
-      <a id="copyright" href="https://github.com/spencerwooo/portfolio">
-        <img
-          src="https://img.shields.io/badge/Designed%20by-github.com%2Fspencerwooo-black?logo=github&style=for-the-badge&labelColor=24292e"
-          alt="copyright"
-        />
-      </a>
+
+      <h2>Academics</h2>
+      <ul>
+        <li><b>Current:</b> Computer Science <i>UNDERGRAD</i> at Beijing Institute of Technology. Graduating soon.</li>
+        <li>
+          <b>Future:</b> Prospective student at <a href="https://www.gla.ac.uk/">the University of Glasgow</a>, 1/2021
+          entry, <a href="https://www.gla.ac.uk/postgraduate/taught/computingsciencemsc/">MSc in Computing Science</a>.
+          🙇
+        </li>
+        <li><b>Fields of interest:</b> Adversarial attacks / Image classification / AI security.</li>
+      </ul>
+
+      <h2>Devices</h2>
+      <ul>
+        <li>Intel® NUC Kit NUC8I5BEK</li>
+        <li>ThinkPad X1 Carbon 7th Gen</li>
+        <li>Sony 1000XM3</li>
+        <li>iPhone XR / iPad Air 3 / AirPods Pro</li>
+      </ul>
+
+      <h2>Contacts</h2>
+      <ul>
+        <li>
+          <b>Email：</b>
+          <a href="mailto:spencerwoo98@gmail.com">spencerwoo98#gmail.com</a><i> (Preferred)</i>
+        </li>
+        <li><b>Catch me: </b>Beijing Institute of Technology, Beijing, China</li>
+      </ul>
     </div>
   </div>
 </template>
 
-<script>
-import Card from '@/components/Card.vue'
-
-export default {
-  components: {
-    Card,
-  },
-}
-</script>
-
 <style lang="css" scoped>
+#name-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
 #copyright:hover {
   border: none;
+}
+
+.title-font {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.title-desc-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.title-desc-container a {
+  display: flex;
+  align-items: center;
+}
+
+.title-desc-container span {
+  margin: 0px 4px;
+}
+
+.title-desc-container #github {
+  color: #24292e;
+}
+
+.title-desc-container #sspai {
+  color: #ca2c2a;
+}
+
+.title-desc-container #blog {
+  color: #0070f3;
+}
+
+a:hover {
+  border-bottom: none;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 16px 0 4px 0;
+}
+
+ul {
+  padding-left: 15px;
+  line-height: 30px;
+  margin: 0;
+}
+
+p {
+  line-height: 30px;
 }
 </style>

@@ -1,107 +1,105 @@
 <template>
   <div class="container">
-    <h1>📈</h1>
-    <h1>Stats</h1>
-    <p>各项指标，实时监控！</p>
+    <h1>Social</h1>
+    <p>Some of my followers.</p>
 
-    <hr id="top-hr" />
     <div class="col-container">
       <div class="row-container">
         <statCard
-          statTitle="Telegram 频道"
-          :followers="telegram"
+          statTitle="Telegram Channel"
+          :followers="telegram.data"
           suffix="members"
           icon="telegram.png"
-          :loading="loading"
+          :loading="telegram.loading"
           link="https://t.me/realSpencerWoo"
         />
         <statCard
-          statTitle="即刻"
-          :followers="jike"
-          suffix="被关注"
+          statTitle="Jike"
+          :followers="jike.data"
+          suffix="followers"
           icon="jike.png"
-          :loading="loading"
+          :loading="jike.loading"
           link="https://m.okjike.com/users/4DDA0425-FB41-4188-89E4-952CA15E3C5E"
         />
       </div>
       <div class="row-container">
         <statCard
-          statTitle="RSS 订阅"
-          :followers="rss"
+          statTitle="RSS"
+          :followers="rss.data"
           suffix="subscribers"
           icon="rss.png"
-          :loading="loading"
+          :loading="rss.loading"
           link="https://blog.spencerwoo.com/posts/index.xml"
         />
         <statCard
-          statTitle="少数派"
-          :followers="sspai"
-          suffix="关注"
+          statTitle="SSPAI"
+          :followers="sspai.data"
+          suffix="followers"
           icon="sspai.png"
-          :loading="loading"
+          :loading="sspai.loading"
           link="https://sspai.com/u/spencerwoo/posts"
         />
       </div>
       <div class="row-container">
         <statCard
-          statTitle="微博"
-          :followers="weibo"
-          suffix="粉丝"
+          statTitle="Weibo"
+          :followers="weibo.data"
+          suffix="fans"
           icon="weibo.png"
-          :loading="loading"
+          :loading="weibo.loading"
           link="https://weibo.com/spencerwoo"
         />
         <statCard
-          statTitle="知乎"
-          :followers="zhihu"
-          suffix="关注"
+          statTitle="Zhihu"
+          :followers="zhihu.data"
+          suffix="followers"
           icon="zhihu.png"
-          :loading="loading"
+          :loading="zhihu.loading"
           link="https://www.zhihu.com/people/spencer-woo-64"
         />
       </div>
       <div class="row-container">
         <statCard
           statTitle="Twitter"
-          :followers="twitter"
+          :followers="twitter.data"
           suffix="followers"
           icon="twitter.png"
-          :loading="loading"
+          :loading="twitter.loading"
           link="https://twitter.com/realSpencerWoo"
         />
         <statCard
           statTitle="GitHub"
-          :followers="github"
+          :followers="github.data"
           suffix="followers"
           icon="github.png"
-          :loading="loading"
+          :loading="github.loading"
           link="https://github.com/spencerwooo"
         />
       </div>
       <div class="row-container">
         <statCard
           statTitle="Medium"
-          :followers="medium"
+          :followers="medium.data"
           suffix="readers"
           icon="medium.png"
-          :loading="loading"
+          :loading="medium.loading"
           link="https://medium.com/spencerweekly"
         />
         <statCard
           statTitle="Steam Games"
-          :followers="steamGames"
-          suffix="games bought"
+          :followers="steamGames.data"
+          suffix="games"
           icon="steam.png"
-          :loading="loading"
+          :loading="steamGames.loading"
           link="https://steamcommunity.com/id/firebearllc/"
         />
       </div>
     </div>
 
-    <div id="substats-footer">
+    <p id="substats-footer">
       * Follower statistics powered by:
       <a href="https://api.spencerwoo.com/substats">Substats</a>.
-    </div>
+    </p>
   </div>
 </template>
 
@@ -114,17 +112,16 @@ export default {
   },
   data() {
     return {
-      rss: 0,
-      jike: 0,
-      sspai: 0,
-      zhihu: 0,
-      weibo: 0,
-      twitter: 0,
-      medium: 0,
-      github: 0,
-      steamGames: 0,
-      telegram: 0,
-      loading: true,
+      rss: { data: 0, loading: true },
+      jike: { data: 0, loading: true },
+      sspai: { data: 0, loading: true },
+      zhihu: { data: 0, loading: true },
+      weibo: { data: 0, loading: true },
+      twitter: { data: 0, loading: true },
+      medium: { data: 0, loading: true },
+      github: { data: 0, loading: true },
+      steamGames: { data: 0, loading: true },
+      telegram: { data: 0, loading: true },
     }
   },
   mounted() {
@@ -142,40 +139,36 @@ export default {
     const steamGamesAxios = this.axios.get(`${apiUrl}/?source=steamGames&queryKey=76561198336249957`)
     const telegramAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=realSpencerWoo`)
 
-    this.axios
-      .all([
-        rssAxios,
-        sspaiAxios,
-        jikeAxios,
-        zhihuAxios,
-        weiboAxios,
-        twitterAxios,
-        mediumAxios,
-        githubAxios,
-        steamGamesAxios,
-        // steamFriendsAxios,
-        telegramAxios,
-      ])
-      .then(
-        this.axios.spread((...responses) => {
-          this.loading = false
-          this.rss = responses[0].data.data.totalSubs
-          this.sspai = responses[1].data.data.totalSubs
-          this.jike = responses[2].data.data.totalSubs
-          this.zhihu = responses[3].data.data.totalSubs
-          this.weibo = responses[4].data.data.totalSubs
-          this.twitter = responses[5].data.data.totalSubs
-          this.medium = responses[6].data.data.totalSubs
-          this.github = responses[7].data.data.totalSubs
-          this.steamGames = responses[8].data.data.totalSubs
-          this.telegram = responses[9].data.data.totalSubs
-        }),
-      )
-      .catch(errs => {
-        this.loading = false
-        // eslint-disable-next-line no-console
-        console.error(errs)
-      })
+    rssAxios.then(r => {
+      this.rss = { data: r.data.data.totalSubs, loading: false }
+    })
+    sspaiAxios.then(r => {
+      this.sspai = { data: r.data.data.totalSubs, loading: false }
+    })
+    jikeAxios.then(r => {
+      this.jike = { data: r.data.data.totalSubs, loading: false }
+    })
+    zhihuAxios.then(r => {
+      this.zhihu = { data: r.data.data.totalSubs, loading: false }
+    })
+    weiboAxios.then(r => {
+      this.weibo = { data: r.data.data.totalSubs, loading: false }
+    })
+    twitterAxios.then(r => {
+      this.twitter = { data: r.data.data.totalSubs, loading: false }
+    })
+    mediumAxios.then(r => {
+      this.medium = { data: r.data.data.totalSubs, loading: false }
+    })
+    githubAxios.then(r => {
+      this.github = { data: r.data.data.totalSubs, loading: false }
+    })
+    steamGamesAxios.then(r => {
+      this.steamGames = { data: r.data.data.totalSubs, loading: false }
+    })
+    telegramAxios.then(r => {
+      this.telegram = { data: r.data.data.totalSubs, loading: false }
+    })
   },
 }
 </script>
@@ -197,6 +190,15 @@ export default {
   justify-content: center;
   align-items: stretch;
   align-content: stretch;
+  margin: 15px 0px;
+}
+
+.row-container .statCard:last-child {
+  margin-left: 30px;
+}
+
+.row-container .statCard {
+  flex: 1;
 }
 
 @media screen and (max-width: 760px) {
@@ -208,6 +210,11 @@ export default {
     align-items: stretch;
     align-content: center;
   }
+
+  .row-container .statCard:last-child {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
 }
 
 a {
@@ -217,6 +224,5 @@ a {
 #substats-footer {
   color: #666666;
   text-align: left;
-  margin: 60px 0 0 0;
 }
 </style>

@@ -1,21 +1,16 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
-import VueParticles from 'vue-particles'
 import VueNavigationBar from 'vue-navigation-bar'
-import VTooltip from 'v-tooltip'
 import axios from 'axios'
 
 import Home from './views/Home.vue'
-import About from './views/About.vue'
-import Subscribe from './views/Subscribe.vue'
-import Stats from './views/Stats.vue'
+import Projects from './views/Projects.vue'
+import Social from './views/Social.vue'
 import NotFound from './views/NotFound.vue'
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
-Vue.use(VueParticles)
-Vue.use(VTooltip)
 Vue.component('vue-navigation-bar', VueNavigationBar)
 
 // NProgress
@@ -28,9 +23,8 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes: [
     { path: '/', component: Home },
-    { path: '/about', component: About },
-    { path: '/subscribe', component: Subscribe },
-    { path: '/stats', component: Stats },
+    { path: '/projects', component: Projects },
+    { path: '/social', component: Social },
 
     // Not found
     { path: '/*', component: NotFound }

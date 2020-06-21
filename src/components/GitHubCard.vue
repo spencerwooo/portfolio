@@ -73,7 +73,6 @@ export default {
 
 <style scoped>
 h3 {
-  font-weight: 700;
   font-size: 18px;
   padding: 18px 0 0 0;
   margin: 0;
@@ -92,7 +91,6 @@ h3 a:hover {
   background-color: #ffffff;
   border-radius: 10px;
   padding: 0 20px 20px 20px;
-  margin: 40px 0;
   transition: 0.3s;
   background-image: -webkit-repeating-radial-gradient(
     center center,
@@ -111,7 +109,7 @@ h3 a:hover {
 }
 
 .github-project-card p {
-  line-height: inherit;
+  line-height: 25px;
 }
 
 .github-repo-stats {

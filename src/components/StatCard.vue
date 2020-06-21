@@ -49,7 +49,6 @@ export default {
   background-size: 20px 20px;
   border-radius: 10px;
   padding: 20px 30px;
-  margin: 15px 15px;
   min-width: 220px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
