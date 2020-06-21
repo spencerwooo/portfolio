@@ -5,6 +5,8 @@
 
 > 🍌 My personal home page, built and designed from scratch.
 
+Current master branch holds `v1.1` of my portfolio. For `v1.0`, please refer to branch [tree/v1.0](https://github.com/spencerwooo/portfolio/tree/v1.0).
+
 <!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/b78fe007-3630-48ab-9476-d4abf49459f6/deploy-status)](https://app.netlify.com/sites/spencer/deploys) -->
 
 ## One-click deployment
