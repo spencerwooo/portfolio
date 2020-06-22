@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>Projects</h1>
-    <p>Projects I participated and/or developed.</p>
+    <p>Projects I participated in and/or developed.</p>
 
     <GitHubCard
       title="📟 Dev on Windows with WSL"
