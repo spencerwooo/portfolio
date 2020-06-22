@@ -4,7 +4,7 @@
       <img id="avatar" src="./../assets/images/av.png" alt="avatar" />
       <h1>Spencer Woo</h1>
     </div>
-    <p class="title-desc-container">
+    <div class="title-desc-container">
       <a id="github" href="https://github.com/spencerwooo"
         ><img class="title-font" src="./../assets/images/github.svg" />Developer</a
       >
@@ -16,7 +16,7 @@
       <a id="blog" href="https://blog.spencerwoo.com"
         ><img class="title-font" src="./../assets/images/zeit.svg" />Blogger</a
       >
-    </p>
+    </div>
     <div class="article">
       <h2>Name</h2>
       <p>
@@ -86,6 +86,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin: 8px 0;
 }
 
 .title-desc-container a {
