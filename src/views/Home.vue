@@ -49,7 +49,7 @@
       <ul>
         <li>
           <b>Email：</b>
-          <a href="mailto:spencerwoo98@gmail.com">spencerwoo98#gmail.com</a><i> (Preferred)</i>
+          <a href="mailto:spencer.woo@outlook.com">spencer.woo#outlook.com</a><i> (Preferred)</i>
         </li>
         <li><b>Catch me: </b>Beijing Institute of Technology, Beijing, China</li>
       </ul>
