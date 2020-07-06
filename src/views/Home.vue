@@ -28,10 +28,13 @@
 
       <h2>Academics</h2>
       <ul>
-        <li><b>Current:</b> Computer Science <i>UNDERGRAD</i> at Beijing Institute of Technology. Graduating soon.</li>
         <li>
-          <b>Future:</b> Prospective student at <a href="https://www.gla.ac.uk/">the University of Glasgow</a>, 1/2021
-          entry, <a href="https://www.gla.ac.uk/postgraduate/taught/computingsciencemsc/">MSc in Computing Science</a>.
+	  Fresh graduate at 🇨🇳 <a href="http://www.bit.edu.cn/">Beijing Institute of Technology</a>
+	  , <i>BSc in Computer Science</i>. Currently a research assistant at Data & AI security Lab, BIT.
+	</li>
+        <li>
+          Prospective student at 🇬🇧 <a href="https://www.gla.ac.uk/">the University of Glasgow</a>, 1/2021
+          entry, <i><a href="https://www.gla.ac.uk/postgraduate/taught/computingsciencemsc/">MSc in Computing Science</a></i>.
           🙇
         </li>
         <li><b>Fields of interest:</b> Adversarial attacks / Image classification / AI security.</li>
