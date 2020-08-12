@@ -55,7 +55,7 @@
           suffix="followers"
           icon="zhihu.png"
           :loading="zhihu.loading"
-          link="https://www.zhihu.com/people/spencer-woo-64"
+          link="https://www.zhihu.com/people/spencerwoo"
         />
       </div>
       <div class="row-container">
@@ -131,7 +131,7 @@ export default {
     const rssAxios = this.axios.get(`${apiUrl}/?source=feedly|inoreader|feedsPub&queryKey=${rssUrl}`)
     const sspaiAxios = this.axios.get(`${apiUrl}/?source=sspai&queryKey=spencerwoo`)
     const jikeAxios = this.axios.get(`${apiUrl}/?source=jikeFollower&queryKey=4DDA0425-FB41-4188-89E4-952CA15E3C5E`)
-    const zhihuAxios = this.axios.get(`${apiUrl}/?source=zhihu&queryKey=spencer-woo-64`)
+    const zhihuAxios = this.axios.get(`${apiUrl}/?source=zhihu&queryKey=spencerwoo`)
     const weiboAxios = this.axios.get(`${apiUrl}/?source=weibo&queryKey=6265807914`)
     const twitterAxios = this.axios.get(`${apiUrl}/?source=twitter&queryKey=realSpencerWoo`)
     const mediumAxios = this.axios.get(`${apiUrl}/?source=medium&queryKey=@SpencerWooo`)
