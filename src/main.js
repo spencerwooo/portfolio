@@ -1,17 +1,22 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
-import VueNavigationBar from 'vue-navigation-bar'
-import axios from 'axios'
 
 import Home from './views/Home.vue'
 import Projects from './views/Projects.vue'
 import Social from './views/Social.vue'
 import NotFound from './views/NotFound.vue'
 
+import './assets/styles/base.css'
+
 Vue.config.productionTip = false
 Vue.use(VueRouter)
+
+import VueNavigationBar from 'vue-navigation-bar'
 Vue.component('vue-navigation-bar', VueNavigationBar)
+
+import axios from 'axios'
+Vue.prototype.axios = axios
 
 // NProgress
 import NProgress from 'nprogress'
@@ -41,8 +46,6 @@ router.beforeEach((to, from, next) => {
 router.afterEach((to, from) => {
   NProgress.done()
 })
-
-Vue.prototype.axios = axios
 
 new Vue({
   router,

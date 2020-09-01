@@ -82,10 +82,6 @@ h3 a {
   color: #000000;
 }
 
-h3 a:hover {
-  border: none;
-}
-
 .github-project-card {
   position: relative;
   background-color: #ffffff;

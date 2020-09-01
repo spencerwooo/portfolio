@@ -15,12 +15,8 @@
   margin-bottom: 40px;
 }
 
-p {
-  line-height: 30px;
-}
-
 .back-home {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
 }
 

@@ -217,14 +217,6 @@ export default {
   }
 }
 
-a {
-  text-decoration: none;
-}
-
-p {
-  line-height: 30px;
-}
-
 #substats-footer {
   color: #666666;
   text-align: left;

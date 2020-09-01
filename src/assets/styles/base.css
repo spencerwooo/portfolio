@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Open+Sans:wght@700&display=swap');
+
+:root {
+  --title-font-family: open sans, -apple-system, BlinkMacSystemFont, segoe ui, helvetica, arial, pingfang sc,
+    source han sans sc, noto sans cjk sc, sarasa gothic sc, microsoft yahei, sans-serif, apple color emoji,
+    segoe ui emoji;
+  --main-font-family: lato, -apple-system, BlinkMacSystemFont, segoe ui, helvetica, arial, pingfang sc,
+    source han sans sc, noto sans cjk sc, sarasa gothic sc, microsoft yahei, sans-serif, apple color emoji,
+    segoe ui emoji;
+  --monospace-font-family: sfmono-regular, consolas, liberation mono, menlo, monospace;
+
+  --background-color: #fafafa;
+  --text-color: #000000;
+  --footer-color: #666666;
+  --link-color: #0070f3;
+  --code-color: #bd10e0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  font-family: var(--main-font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--title-font-family);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 16px 0 4px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+span,
+li,
+ul {
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+a:hover {
+  border-bottom: none;
+}
+
+ul {
+  padding-left: 15px;
+  line-height: 30px;
+  margin: 0;
+}
+
+p {
+  line-height: 30px;
+}
+
+code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  border-radius: 6px;
+  color: var(--code-color);
+}
+
+code::before,
+code::after {
+  content: '`';
+}
+
+pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  border-radius: 6px;
+  word-break: normal;
+  word-wrap: normal;
+  border: 1px solid #eaeaea;
+  margin: 24px 0;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+}
+
+code,
+pre {
+  font-family: var(--monospace-font-family);
+}
+
+b {
+  font-weight: 700;
+}

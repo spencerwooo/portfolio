@@ -70,23 +70,6 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Open+Sans:wght@700&display=swap');
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #fafafa;
-}
-
-#app {
-  font-family: Lato, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, pingfang sc, source han sans sc,
-    noto sans cjk sc, sarasa gothic sc, microsoft yahei, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #000;
-}
-
 .container {
   margin: 0px auto 0px auto;
   max-width: 664px;
@@ -129,35 +112,14 @@ body {
   border-left: 2px solid #0070f3;
 }
 
-h1 {
-  font-size: 28px;
-}
-
-h1,
-h2,
-h3 {
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, 'PingFang SC',
-    'Noto Sans CJK SC', 'Sarasa Gothic SC', 'Microsoft YaHei', sans-serif, Apple Color Emoji, Segoe UI Emoji;
-  font-weight: bold;
-}
-
-p,
-span {
-  color: #666666;
-}
-
-.container a {
-  text-decoration: none;
-  color: #0070f3;
-}
-
-.container a:hover {
-  border-bottom: #0070f3 solid 1px;
-}
-
 #footer {
   padding: 20px 20px;
   background-color: #000;
+}
+
+#footer p {
+  color: var(--footer-color);
+  line-height: initial;
 }
 
 #footer-text {

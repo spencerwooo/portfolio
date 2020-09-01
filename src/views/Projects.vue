@@ -29,7 +29,7 @@
 
     <GitHubCard
       title="📖 BIThesis"
-      link="https://github.com/spencerwooo/Substats"
+      link="https://github.com/BITNP/BIThesis"
       :info="bithesisInfo"
       :loading="loading"
     >
@@ -100,7 +100,7 @@ export default {
 
     const dowwwAxios = this.axios.get(`${githubApiUrl}/spencerwooo/dowww`)
     const substatsAxios = this.axios.get(`${githubApiUrl}/spencerwooo/Substats`)
-    const bithesisAxios = this.axios.get(`${githubApiUrl}/spencerwooo/BIThesis`)
+    const bithesisAxios = this.axios.get(`${githubApiUrl}/BITNP/BIThesis`)
     const fatesAxios = this.axios.get(`${githubApiUrl}/SecureCats/Evaluation_BackEnd`)
     const dotfilesAxios = this.axios.get(`${githubApiUrl}/spencerwooo/dotfiles`)
 
@@ -130,7 +130,4 @@ export default {
   margin-bottom: 40px;
 }
 
-p {
-  line-height: 30px;
-}
 </style>

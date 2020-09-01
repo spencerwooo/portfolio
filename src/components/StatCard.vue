@@ -92,19 +92,10 @@ export default {
 
 h3 {
   margin: 0;
-  font-weight: 700;
-  font-size: 20px;
-  text-align: left;
-  color: #000;
 }
 
 .statCard a {
-  text-decoration: none;
-  color: #000;
-}
-
-.statCard a:hover {
-  border: none;
+  color: #000000;
 }
 
 /* Animations */
