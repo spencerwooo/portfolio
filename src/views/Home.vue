@@ -90,7 +90,7 @@
       <ul>
         <li>
           <b>Email：</b>
-          <a href="mailto:spencer.woo@outlook.com">spencer.woo#outlook.com</a><i> (Preferred)</i>
+          <a href="mailto:spencer.wushangbo@gmail.com">spencer.wushangbo#gmail.com</a><i> (Preferred)</i>
         </li>
       </ul>
     </div>
