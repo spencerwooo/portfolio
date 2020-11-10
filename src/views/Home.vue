@@ -52,8 +52,8 @@
 
       <h2>Devices</h2>
       <ul>
-        <li>ThinkPad X1 Carbon 7th Gen</li>
-        <li>iPhone XR / iPad Air 3 / AirPods Pro</li>
+        <li>⚫ ThinkPad X1 Carbon 7th Gen</li>
+        <li>🔵 iPhone 12 / iPad Air 3 / AirPods Pro</li>
       </ul>
 
       <h2>How can we trust you!</h2>
