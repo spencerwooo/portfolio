@@ -27,12 +27,7 @@
       </p>
     </GitHubCard>
 
-    <GitHubCard
-      title="📖 BIThesis"
-      link="https://github.com/BITNP/BIThesis"
-      :info="bithesisInfo"
-      :loading="loading"
-    >
+    <GitHubCard title="📖 BIThesis" link="https://github.com/BITNP/BIThesis" :info="bithesisInfo" :loading="loading">
       <p>
         LaTeX templates for your bachelor graduation thesis (and more) here at BIT.
       </p>
@@ -129,5 +124,4 @@ export default {
 .container .github-project-card:not(:last-child) {
   margin-bottom: 40px;
 }
-
 </style>
