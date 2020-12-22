@@ -30,9 +30,9 @@
       <h2>Academics</h2>
       <ul>
         <li>
-          🙇 Postgraduate student 🇬🇧
-          <a href="https://www.gla.ac.uk/" target="_blank" rel="noopener noreferrer">the University of Glasgow</a>,
-          1/2021 entry,
+          🙇 Postgraduate student at UofG (🇬🇧
+          <a href="https://www.gla.ac.uk/" target="_blank" rel="noopener noreferrer">University of Glasgow</a>), 1/2021
+          entry,
           <i
             ><a
               href="https://www.gla.ac.uk/postgraduate/taught/computingsciencemsc/"
@@ -43,9 +43,9 @@
           >.
         </li>
         <li>
-          🍭 🇨🇳
-          <a href="http://www.bit.edu.cn/" target="_blank" rel="noopener noreferrer">Beijing Institute of Technology</a>
-          Alumni, <i>BSc in CS</i>.
+          🍭 BIT Alumni (🇨🇳
+          <a href="http://www.bit.edu.cn/" target="_blank" rel="noopener noreferrer">Beijing Institute of Technology</a
+          >), <i>BSc in CS</i>.
         </li>
         <li>🔭 <b>Fields of interest:</b> Adversarial examples / AI vulnerability.</li>
       </ul>
