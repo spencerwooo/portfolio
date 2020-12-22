@@ -38,16 +38,16 @@
               href="https://www.gla.ac.uk/postgraduate/taught/computingsciencemsc/"
               target="_blank"
               rel="noopener noreferrer"
-              >MSc in Computing Science</a
+              >MSc in CS</a
             ></i
           >.
         </li>
         <li>
           🍭 🇨🇳
           <a href="http://www.bit.edu.cn/" target="_blank" rel="noopener noreferrer">Beijing Institute of Technology</a>
-          Alumni, <i>BSc in Computer Science</i>.
+          Alumni, <i>BSc in CS</i>.
         </li>
-        <li>🔭 <b>Fields of interest:</b> Adversarial examples / AI security.</li>
+        <li>🔭 <b>Fields of interest:</b> Adversarial examples / AI vulnerability.</li>
       </ul>
 
       <h2>Devices</h2>
@@ -73,18 +73,6 @@
         can pull and import my GPG public key with:
       </p>
       <pre>curl https://keybase.io/spencerwoo/pgp_keys.asc | gpg --import</pre>
-      <p>
-        Why am I being so cautious?
-        <a
-          href="https://blog.spencerwoo.com/2020/08/wait-this-is-not-my-commit/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >BECAUSE I WAS IMPERSONATED ON GITHUB!!!</a
-        >
-        So, if you see a commit on GitHub which is linked to my username / account / email,
-        <b>please keep in mind that it may not actually be me!</b> (Unless it shows a green <code>verified</code> badge,
-        which means that I have signed the commit with my GPG private key, claiming the authorship of the commit.)
-      </p>
 
       <h2>Contacts</h2>
       <ul>
